@@ -44,6 +44,12 @@ export default function LandingPageWithHero() {
             Home
           </Link>
           <Link
+            to="/hackathons"
+            className="hidden md:block font-semibold text-gray-500 hover:text-green-500 transition duration-100 dark:text-gray-200"
+          >
+            Hackathons
+          </Link>
+          <Link
             to="/sponsors"
             className="hidden md:block font-semibold text-gray-500 hover:text-green-500 transition duration-100 dark:text-gray-200"
           >
