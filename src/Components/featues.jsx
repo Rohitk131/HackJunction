@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 const LandingPage = () => {
   return (
@@ -40,7 +41,7 @@ const LandingPage = () => {
           </div>
         </div>
         {/* Second */}
-        <div className="p-10 transition duration-200 rounded-md feature-box hover:shadow-lg custom-cursor">
+        <Link to="/sponsors"><div className="p-10 transition duration-200 rounded-md feature-box hover:shadow-lg custom-cursor">
           <div className="relative icon inline-block rounded-lg z-10 transition duration-200 transform hover:-rotate-6 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 p-7">
             <div
               className="absolute inset-0 transform rotate-6 opacity-30 rounded-lg bg-red-500"
@@ -53,7 +54,7 @@ const LandingPage = () => {
             />
           </div>
 
-          <div className="text-black text-box dark:text-white">
+         <div className="text-black text-box dark:text-white">
             <h1 className="mt-2 text-xl font-semibold text-gray-700 dark:text-white">
               Sponsorship Solutions
             </h1>
@@ -63,7 +64,7 @@ const LandingPage = () => {
               with vital support.
             </p>
           </div>
-        </div>
+        </div></Link>
         {/* Third*/}
         <div className="p-10 transition duration-200 rounded-md feature-box hover:shadow-lg custom-cursor">
           <div className="relative icon inline-block rounded-lg z-10 transition duration-200 transform hover:-rotate-6 bg-gradient-to-r from-gray-700 via-gray-900 to-black p-8">
