@@ -52,12 +52,12 @@ const Navbar = () => {
               className="absolute inset-0 transform translate-x-1 translate-y-2 rounded-3xl border border-gray-800 dark:border-gray-50 px-8 py-2"
               style={{ zIndex: -10 }}
             ></div>
-            <Link
+            <a
               href="#"
               className="relative text-gray-700 font-light hover:text-green-500 transition duration-100 transform hover:-translate-y-2 hover:-translate-x-1"
             >
               Login
-            </Link>
+            </a>
           </div>
         </div>
       </nav>

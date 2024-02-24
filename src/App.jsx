@@ -13,7 +13,7 @@ function App() {
         <Route path='/' element={<HeroSection />}></Route>
         <Route path='/venue' element={<Venue />}></Route>
         <Route path='/sponsors' element={<Sponsors />}></Route>
-        <Route path='/HackathonHostingPage' element={<HackathonHostingPage />}></Route>
+        <Route path='/hackathons' element={<HackathonHostingPage />}></Route>
         <Route path='/catering' element={<Catering />}></Route>
       </Routes>
     </Router>

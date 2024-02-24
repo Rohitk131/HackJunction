@@ -1,14 +1,15 @@
 import React from 'react'
 import data from "../static_utils/catering.json"
 
-const FoodContainer = () => {
+const FoodContainer = ({cat}) => {
+  const filtered = data.filter(obj=>(obj.key.toLocaleLowerCase()).includes(cat.toLocaleLowerCase())) ;
   return (
     <div>
       <div className="cardList flex flex-wrap justify-center">
         {
-          data.map((ele,index) => {
+          filtered.map((ele,index) => {
             return (
-              <a href="#" key={index}>
+              <a href="#" key={index} onClick={()=>{alert("Login to Continue")}}>
                 <abbr className="decoration-transparent" title={ele.title}>
                   <div className="flex sm:m-4 sm:block card h-70 hover:scale-110 transition-all hover:shadow-lg p-1 rounded-sm ease-in my-1 items-center border-2 border-[#c6c4c450] sm:border-none gap-3">
                     <img className="menuImg w-auto h-24 sm:w-60 rounded-3xl sm:h-36" src={ele.img}></img>
