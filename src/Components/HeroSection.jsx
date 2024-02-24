@@ -1,3 +1,8 @@
+import React from 'react'
+import '../index.css'
+import Features from './featues';
+import { Link } from 'react-router-dom';
+
 import React from "react";
 import "../index.css";
 import Features from "./featues";
@@ -35,36 +40,36 @@ export default function LandingPageWithHero() {
           </h1>
         </div>
         <div className="flex flex-row items-center space-x-8">
-          <a
-            href="#"
+        <Link
+            to="/"
             className="hidden md:block font-semibold text-gray-500 hover:text-green-500 transition duration-100 dark:text-gray-200"
           >
             Home
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            to="/sponsors"
             className="hidden md:block font-semibold text-gray-500 hover:text-green-500 transition duration-100 dark:text-gray-200"
           >
-            Hackathons
-          </a>
-          <a
-            href="#"
+            Sponsors
+          </Link>
+          <Link
+            to="/venue"
+            className="hidden md:block font-semibold text-gray-500 hover:text-green-500 transition duration-100 dark:text-gray-200"
+          >
+            Venue
+          </Link>
+          <Link
+            to="/catering"
+            className="hidden md:block font-semibold text-gray-500 hover:text-green-500 transition duration-100 dark:text-gray-200"
+          >
+            Catering
+          </Link>
+          <Link
+            to='/about'
             className="hidden md:block font-semibold text-gray-500 hover:text-green-500 transition duration-100 dark:text-gray-200"
           >
             About Us
-          </a>
-          <a
-            href="#"
-            className="hidden md:block font-semibold text-gray-500 hover:text-green-500 transition duration-100 dark:text-gray-200"
-          >
-            How It Works
-          </a>
-          <a
-            href="#"
-            className="hidden md:block font-semibold text-gray-500 hover:text-green-500 transition duration-100 dark:text-gray-200"
-          >
-            Contact Us
-          </a>
+          </Link>
           <div className="relative px-8 py-2 border border-gray-800 rounded-3xl bg-white dark:border-gray-50">
             <div
               className="absolute inset-0 transform translate-x-1 translate-y-2 rounded-3xl border border-gray-800 dark:border-gray-50 px-8 py-2"
