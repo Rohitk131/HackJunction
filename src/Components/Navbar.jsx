@@ -47,7 +47,7 @@ const Navbar = () => {
               style={{ zIndex: -10 }}
             ></div>
             <Link
-              to="/signin" // Path to SignIn page
+              to="/signin" 
               className="relative text-gray-700 font-light hover:text-green-500 transition duration-100 transform hover:-translate-y-2 hover:-translate-x-1"
             >
               Login
