@@ -208,7 +208,7 @@ export default function LandingPageWithHero() {
               <img
                 src="https://images.unsplash.com/photo-1638029202288-451a89e0d55f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="hero here"
-                className="rounded-lg"
+                className="rounded-lg h-fit"
               />
             </div>
             <div className="px-8 py-2 my-2 rounded-lg  break-inside">
@@ -236,6 +236,7 @@ export default function LandingPageWithHero() {
               <img
                 src="https://miro.medium.com/v2/resize:fit:960/1*XHcSc6bN4ZbW7OtgvEJoYg.png"
                 alt="hero here"
+                height={"full"}
                 className="rounded-lg"
               />
             </div>

@@ -13,3 +13,12 @@
     }
   }
 }
+
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+*{
+  scroll-behavior: smooth;
+}

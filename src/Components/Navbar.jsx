@@ -13,31 +13,31 @@ const Navbar = () => {
         <div className="flex flex-row items-center space-x-8">
           <Link
             to="/"
-            className="hidden md:block font-semibold text-gray-500 hover:text-green-500 transition duration-100 dark:text-gray-200"
+            className="\block font-semibold text-gray-500 hover:text-green-500 transition duration-100 dark:text-gray-200"
           >
             Home
           </Link>
           <Link
             to="/sponsors"
-            className="hidden md:block font-semibold text-gray-500 hover:text-green-500 transition duration-100 dark:text-gray-200"
+            className="\block font-semibold text-gray-500 hover:text-green-500 transition duration-100 dark:text-gray-200"
           >
             Sponsors
           </Link>
           <Link
             to="/venue"
-            className="hidden md:block font-semibold text-gray-500 hover:text-green-500 transition duration-100 dark:text-gray-200"
+            className="\block font-semibold text-gray-500 hover:text-green-500 transition duration-100 dark:text-gray-200"
           >
             Venue
           </Link>
           <Link
             to="/catering"
-            className="hidden md:block font-semibold text-gray-500 hover:text-green-500 transition duration-100 dark:text-gray-200"
+            className="\block font-semibold text-gray-500 hover:text-green-500 transition duration-100 dark:text-gray-200"
           >
             Catering
           </Link>
           <Link
             to='/about'
-            className="hidden md:block font-semibold text-gray-500 hover:text-green-500 transition duration-100 dark:text-gray-200"
+            className="\block font-semibold text-gray-500 hover:text-green-500 transition duration-100 dark:text-gray-200"
           >
             About Us
           </Link>
