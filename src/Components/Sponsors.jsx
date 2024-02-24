@@ -89,7 +89,7 @@ const Sponsors = () => {
             </div>
             {/* <Button variant="outlined" sx={{color: "white", borderColor:"white", marginX:"45vw"}} onClick={handleClickOpen}>See More</Button> */}
             <React.Fragment>
-      <Button variant="outlined" onClick={handleClickOpen}>
+      <Button variant="outlined" sx={{color: "white", borderColor:"white", marginLeft:"46vw"}} onClick={handleClickOpen} >
         See More
       </Button>
       <Dialog onClose={handleClose} aria-labelledby="customized-dialog-title" open={open}>
