@@ -5,13 +5,12 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import { styled } from '@mui/material/styles';
 import Dialog from '@mui/material/Dialog';
 import DialogTitle from '@mui/material/DialogTitle';
 import DialogContent from '@mui/material/DialogContent';
-import DialogActions from '@mui/material/DialogActions';
 import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
+import Subscribe from '/subscribe.png';
 
 const Sponsors = () => {
     const data = [
@@ -61,7 +60,7 @@ const Sponsors = () => {
         <Navbar />
         <div>
             <h1 className='w-fit mx-auto text-5xl my-10 font-bold tracking-tighter'>Explore our featured Sponsors</h1>
-            <section className='mx-48 my-10 grid grid-cols-3'>
+            <section className='w-fit mx-auto my-10 grid grid-cols-1 md:grid-cols-3'>
                 {data.map((e)=>{
                     return(
                         <Card sx={{ maxWidth: 345, margin: 2 }}>
@@ -83,7 +82,7 @@ const Sponsors = () => {
                 })}
             </section>
             <section className='bg-[#1b1e1f] h-screen'>
-            <h1 className='w-fit mx-auto text-5xl my-10 p-10 font-bold'>Find Actively Participating Sponsors</h1>
+            <h1 className='w-fit mx-auto text-5xl my-10 p-10 font-bold tracking-wider'>Find Actively Participating Sponsors</h1>
             <div className='h-[72vh]'>
 
             </div>
@@ -110,9 +109,9 @@ const Sponsors = () => {
         <CloseIcon />
       </IconButton>
       <DialogContent className='bg-[#25292A]'>
-      <div className='w-[35vw] px-4 bg-[#25292A] my-10'>
-          <div className='w-full shadow-xl bg-[#1b1e1f] text-white flex flex-col p-4 rounded-lg hover:scale-105 duration-300'>
-              {/* <img className='w-20 mx-auto mt-[-3rem] bg-transparent' src={Double} alt="/" /> */}
+      <div className='w-[32vw] px-4 bg-[#25292A] my-10'>
+          <div className='w-[30vw] shadow-xl bg-[#1b1e1f] text-white flex flex-col p-4 rounded-lg hover:scale-105 duration-300'>
+              <img className='w-20 mx-auto mt-[-3rem] invert' src={Subscribe} alt="/" />
               <h2 className='text-2xl font-bold text-center py-8'>Monthly</h2>
               <p className='text-center text-4xl font-bold'>₹5,000</p>
               <div className='text-center font-medium'>
