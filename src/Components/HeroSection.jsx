@@ -1,5 +1,6 @@
 import React from 'react'
 import '../index.css'
+import Features from './featues';
 export default function LandingPageWithHero() {
   return (
     <main className="relative antialiased bg-white dark:bg-[#25292A] z-0 overflow-hidden">
@@ -111,6 +112,7 @@ export default function LandingPageWithHero() {
           </div>
         </div>
       </header>
+      <Features />
       <section className="flex flex-col md:flex-row justify-between bg-gray-600 items-center px-20 py-10 mt-20">
         <h1 className="text-2xl font-bold text-gray-50">Companies who trust us</h1>
         <div className="companies flex flex-row items-center flex-wrap justify-center">
