@@ -90,7 +90,7 @@ const LandingPage = () => {
         </div>
         {/* Fourth */}
         <div className="p-10 transition duration-200 rounded-md feature-box hover:shadow-lg custom-cursor">
-          <div className="relative icon inline-block rounded-lg z-10 transition duration-200 transform hover:-rotate-6 bg-gradient-to-r bg-gradient-to-r from-red-400 to-yellow-500 p-8">
+          <div className="relative icon inline-block rounded-lg z-10 transition duration-200 transform hover:-rotate-6 bg-gradient-to-r from-red-400 to-yellow-500 p-8">
           <div
               className="absolute inset-0 transform rotate-6 opacity-30 rounded-lg bg-yellow-500"
               style={{ zIndex: -10 }}
