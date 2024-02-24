@@ -138,7 +138,7 @@ const Sponsors = () => {
               <div className='text-center font-medium'>
                   <p className='py-2 border-b mx-8 mt-8'>100+ Sponsors</p>
                   <p className='py-2 border-b mx-8'>100+ Venues</p>
-                  <p className='py-2 border-b mx-8'>Personal Assistance</p>
+                  <p className='py-2 border-b mx-8'>0% Brokerage</p>
               </div>
               <button className='bg-gray-700 text-gray-200 w-[300px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Start Trial</button>
           </div>
