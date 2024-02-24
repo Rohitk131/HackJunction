@@ -5,6 +5,13 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
+import { styled } from '@mui/material/styles';
+import Dialog from '@mui/material/Dialog';
+import DialogTitle from '@mui/material/DialogTitle';
+import DialogContent from '@mui/material/DialogContent';
+import DialogActions from '@mui/material/DialogActions';
+import IconButton from '@mui/material/IconButton';
+import CloseIcon from '@mui/icons-material/Close';
 
 const Sponsors = () => {
     const data = [
@@ -39,6 +46,16 @@ const Sponsors = () => {
             image: "https://1000logos.net/wp-content/uploads/2021/12/Just-Eat-logo.png"
         }
     ]
+
+    const [open, setOpen] = React.useState(false);
+
+  const handleClickOpen = () => {
+    setOpen(true);
+  };
+  const handleClose = () => {
+    setOpen(false);
+  };
+  
   return (
     <div className='bg-[#25292A] text-white'>
         <Navbar />
@@ -70,7 +87,45 @@ const Sponsors = () => {
             <div className='h-[72vh]'>
 
             </div>
-            <Button variant="outlined" sx={{color: "white", borderColor:"white", marginX:"45vw"}}>See More</Button>
+            {/* <Button variant="outlined" sx={{color: "white", borderColor:"white", marginX:"45vw"}} onClick={handleClickOpen}>See More</Button> */}
+            <React.Fragment>
+      <Button variant="outlined" onClick={handleClickOpen}>
+        See More
+      </Button>
+      <Dialog onClose={handleClose} aria-labelledby="customized-dialog-title" open={open}>
+
+      <DialogTitle sx={{ m: 0, p: 2, px: 27 }} id="customized-dialog-title" className='bg-gray-800 text-white'>
+        Get Subscription
+      </DialogTitle>
+      <IconButton
+        aria-label="close"
+        onClick={handleClose}
+        sx={{
+          position: 'absolute',
+          right: 8,
+          top: 8,
+          color: (theme) => theme.palette.grey[500],
+        }}
+      >
+        <CloseIcon />
+      </IconButton>
+      <DialogContent className='bg-[#25292A]'>
+      <div className='w-[35vw] px-4 bg-[#25292A] my-10'>
+          <div className='w-full shadow-xl bg-[#1b1e1f] text-white flex flex-col p-4 rounded-lg hover:scale-105 duration-300'>
+              {/* <img className='w-20 mx-auto mt-[-3rem] bg-transparent' src={Double} alt="/" /> */}
+              <h2 className='text-2xl font-bold text-center py-8'>Monthly</h2>
+              <p className='text-center text-4xl font-bold'>₹5,000</p>
+              <div className='text-center font-medium'>
+                  <p className='py-2 border-b mx-8 mt-8'>100+ Sponsors</p>
+                  <p className='py-2 border-b mx-8'>100+ Venues</p>
+                  <p className='py-2 border-b mx-8'>Personal Assistance</p>
+              </div>
+              <button className='bg-gray-700 text-gray-200 w-[300px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Start Trial</button>
+          </div>
+      </div>
+      </DialogContent>
+      </Dialog>
+    </React.Fragment>
             </section>
         </div>
     </div>
