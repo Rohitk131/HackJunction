@@ -1,9 +1,5 @@
 import React from 'react'
-import '../index.css'
-import Features from './featues';
 import { Link } from 'react-router-dom';
-
-import React from "react";
 import "../index.css";
 import Features from "./featues";
 import FAQ from "./faq";
@@ -130,51 +126,50 @@ export default function LandingPageWithHero() {
         </div>
       </header>
       <Features />
-      <section className="flex flex-col md:flex-row justify-between bg-gray-600 items-center px-20 py-10 mt-20">
-        <h1 className="text-2xl font-bold text-gray-50">
-          Companies who trust us
-        </h1>
-        <div className="companies flex flex-row items-center flex-wrap justify-center">
-          <div className="my-4 mx-4">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/368px-Google_2015_logo.svg.png"
-              className="w-28 h-auto"
-              alt="logo company"
-            />
-          </div>
-          <div className="my-4 mx-4">
-            <img
-              src="http://media.corporate-ir.net/media_files/IROL/17/176060/Oct18/Amazon%20logo.PNG"
-              className="w-28 h-auto"
-              alt="logo company"
-            />
-          </div>
-          <div className="my-4 mx-4">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Slack_Technologies_Logo.svg/1024px-Slack_Technologies_Logo.svg.png"
-              className="w-28 h-auto"
-              alt="logo company"
-            />
-          </div>
-          <div className="my-4 mx-4">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Shopify_logo_2018.svg/800px-Shopify_logo_2018.svg.png"
-              className="w-28 h-auto"
-              alt="logo company"
-            />
-          </div>
-        </div>
-      </section>
+      <section className="bg-[#25292A] py-16 rounded-xl">
+            <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="text-center">
+                    <h2 className="text-3xl font-bold text-white sm:text-4xl">Hackathon Stats</h2>
+                    <p className="mt-2 text-sm text-gray-600">Explore some interesting statistics about our hackathons.</p>
+                </div>
+                <div className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+                    <div className="bg-white overflow-hidden shadow rounded-lg">
+                        <div className="px-4 py-5 sm:p-6">
+                            <h3 className="text-lg font-semibold text-gray-900">Participants</h3>
+                            <p className="mt-1 text-sm text-gray-600">Over 1000 participants joined our hackathons.</p>
+                        </div>
+                    </div>
+                    <div className="bg-white overflow-hidden shadow rounded-lg">
+                        <div className="px-4 py-5 sm:p-6">
+                            <h3 className="text-lg font-semibold text-gray-900">Projects</h3>
+                            <p className="mt-1 text-sm text-gray-600">More than 500 innovative projects were created.</p>
+                        </div>
+                    </div>
+                    <div className="bg-white overflow-hidden shadow rounded-lg">
+                        <div className="px-4 py-5 sm:p-6">
+                            <h3 className="text-lg font-semibold text-gray-900">Prizes</h3>
+                            <p className="mt-1 text-sm text-gray-600">Distributed over $50,000 in prizes.</p>
+                        </div>
+                    </div>
+                    <div className="bg-white overflow-hidden shadow rounded-lg">
+                        <div className="px-4 py-5 sm:p-6">
+                            <h3 className="text-lg font-semibold text-gray-900">Sponsors</h3>
+                            <p className="mt-1 text-sm text-gray-600">Partnered with 20+ leading tech companies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
       <section className="pt-20 dark:bg-gray-700">
         <div className="grid grid-cols-1 md:grid-cols-2 px-8 my-2 max-w-6xl mx-auto items-center mt-10">
           <div>
             <h1 className="text-4xl font-bold dark:text-gray-50 text-gray-700">
-              Payments in <span className="text-[#1a759f]">one click</span>{" "}
-              without any hassle
+              Seamless and <span className="text-[#1a759f]">Hassle-free</span>{" "}
+              registration for hackathons.
             </h1>
             <p className="my-8 dark:text-gray-200 text-gray-600">
-              Get additional 40% off on your next referral. Refer a friend and
-              earn money. Conditions apply!
+            With the HackJunction platform, registering for hackathons has never been easier. 
+            HackJunction provides a smooth and secure payment experience for hackathon enthusiasts.
             </p>
             <div className="relative px-8 py-2 border rounded-3xl bg-white cursor-pointer inline-block">
               <div
@@ -199,7 +194,7 @@ export default function LandingPageWithHero() {
             />
 
             <img
-              src="https://res.cloudinary.com/tailwindmasterkit/image/upload/v1627290155/assets/untitled-design-47png-a821832209.png"
+              src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               className="rounded-lg"
               alt="hero"
             />
@@ -210,43 +205,42 @@ export default function LandingPageWithHero() {
           <div className="box-border max-w-6xl mx-auto md:masonry before:box-inherit after:box-inherit">
             <div className="px-8 py-2 my-2 rounded-lg break-inside">
               <img
-                src="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1390&q=80"
+                src="https://images.unsplash.com/photo-1638029202288-451a89e0d55f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="hero here"
                 className="rounded-lg"
               />
             </div>
-            <div className="px-8 py-2 my-2 rounded-lg break-inside">
+            <div className="px-8 py-2 my-2 rounded-lg  break-inside">
               <img
-                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1404&q=80"
+                src="https://miro.medium.com/v2/resize:fit:1400/0*oJc6NYEyNl4SqrcS"
                 alt="hero image"
+                className="rounded-lg "
+              />
+            </div>
+            <div className="px-8 py-2 my-6 rounded-lg break-inside">
+              <img
+                src="https://blog.csiro.au/wp-content/uploads/2016/04/Solar-Hackathon-winners.jpg"
+                alt="hero here"
+                className="rounded-lg"
+              />
+            </div>
+            <div className="px-8 py-2 my-6 rounded-lg break-inside">
+              <img
+                src="https://www.researchgate.net/publication/343592585/figure/fig4/AS:1008195237597185@1617383884659/Customers-responses-on-the-hackathon-outcomes.ppm"
+                alt="hero here"
                 className="rounded-lg"
               />
             </div>
             <div className="px-8 py-2 my-2 rounded-lg break-inside">
               <img
-                src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1640&q=80"
-                alt="hero here"
-                className="rounded-lg"
-              />
-            </div>
-
-            <div className="px-8 py-2 my-6 rounded-lg break-inside">
-              <img
-                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80"
+                src="https://miro.medium.com/v2/resize:fit:960/1*XHcSc6bN4ZbW7OtgvEJoYg.png"
                 alt="hero here"
                 className="rounded-lg"
               />
             </div>
             <div className="px-8 py-2 my-6 rounded-lg break-inside">
               <img
-                src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80"
-                alt="hero here"
-                className="rounded-lg"
-              />
-            </div>
-            <div className="px-8 py-2 my-6 rounded-lg break-inside">
-              <img
-                src="https://images.unsplash.com/photo-1591696205602-2f950c417cb9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80"
+                src="https://iotex.io/blog/content/images/2021/07/Hackathon-Sponsors.png"
                 alt="hero here"
                 className="rounded-lg"
               />
