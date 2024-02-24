@@ -40,19 +40,25 @@ export default function LandingPageWithHero() {
             href="#"
             className="hidden md:block font-semibold text-gray-500 hover:text-green-500 transition duration-100 dark:text-gray-200"
           >
-            Cards
+            Hackathons
           </a>
           <a
             href="#"
             className="hidden md:block font-semibold text-gray-500 hover:text-green-500 transition duration-100 dark:text-gray-200"
           >
-            Payments
+            About Us
           </a>
           <a
             href="#"
             className="hidden md:block font-semibold text-gray-500 hover:text-green-500 transition duration-100 dark:text-gray-200"
           >
-            Finance
+            How It Works
+          </a>
+          <a
+            href="#"
+            className="hidden md:block font-semibold text-gray-500 hover:text-green-500 transition duration-100 dark:text-gray-200"
+          >
+            Contact Us
           </a>
           <div className="relative px-8 py-2 border border-gray-800 rounded-3xl bg-white dark:border-gray-50">
             <div
@@ -72,12 +78,11 @@ export default function LandingPageWithHero() {
       <header className="mt-4 md:mt-20 flex flex-col md:flex-row space-x-2 px-4 md:px-20">
         <div className="w-full md:w-1/2">
           <h1 className="text-2xl md:text-4xl lg:text-6xl font-bold text-gray-800 dark:text-gray-50">
-            International payments simplified, money at your{' '}
-            <span className="font-thin tracking-wider">fingertips.</span>
+          Sparking Hackathon Innovation, Linking Innovators, Hosting the Future at{' '}
+            <span className="font-thin tracking-wider">Your Fingertips.</span>
           </h1>
           <p className="my-10 text-gray-800 font-light max-w-xl dark:text-gray-200">
-            AcePay simplified international payments so that you don't have to worry about your
-            money. Grab your licence and start earning today!
+          Streamline your hackathon experience with our all-in-one platform, connecting organizers with sponsors, catering, and venues seamlessly.
           </p>
           <div className="relative px-8 py-2 border rounded-3xl bg-white cursor-pointer inline-block">
             <div
@@ -100,7 +105,7 @@ export default function LandingPageWithHero() {
           >
             <img
               className="rounded-lg"
-              src="https://res.cloudinary.com/tailwindmasterkit/image/upload/v1627290155/assets/untitled-design-47png-a821832209.png"
+              src="https://mir-s3-cdn-cf.behance.net/projects/max_808/f2696d167299601.Y3JvcCwzMzA3LDI1ODcsNzMsMA.png"
               alt="img-container"
             />
           </div>
