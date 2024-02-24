@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <div className='bg-gray-800'>
+    <div className='bg-[#1b1e1f]'>
       <nav className="flex flex-row items-center justify-between px-4 md:px-20 py-10">
         <div className="relative flex flex-row space-x-1 items-center">
           <div className="absolute h-6 w-4 bg-blue-500 transform -skew-x-12 z-10"></div>

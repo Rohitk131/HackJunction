@@ -4,6 +4,7 @@ import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
 
 const Sponsors = () => {
     const data = [
@@ -39,7 +40,7 @@ const Sponsors = () => {
         }
     ]
   return (
-    <div className='bg-gray-700 text-white'>
+    <div className='bg-[#25292A] text-white'>
         <Navbar />
         <div>
             <h1 className='w-fit mx-auto text-5xl my-10 font-bold tracking-tighter'>Explore our featured Sponsors</h1>
@@ -63,6 +64,13 @@ const Sponsors = () => {
                     );
                     
                 })}
+            </section>
+            <section className='bg-[#1b1e1f] h-screen'>
+            <h1 className='w-fit mx-auto text-5xl my-10 p-10 font-bold'>Find Actively Participating Sponsors</h1>
+            <div className='h-[72vh]'>
+
+            </div>
+            <Button variant="outlined" sx={{color: "white", borderColor:"white", marginX:"45vw"}}>See More</Button>
             </section>
         </div>
     </div>

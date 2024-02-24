@@ -2,12 +2,9 @@ import React from 'react'
 import '../index.css'
 import Features from './featues';
 import { Link } from 'react-router-dom';
-
-import React from "react";
-import "../index.css";
-import Features from "./featues";
 import FAQ from "./faq";
 import Tests from './testimonials';
+
 export default function LandingPageWithHero() {
   return (
     <main className="relative antialiased bg-white dark:bg-[#25292A] z-0 overflow-hidden">
