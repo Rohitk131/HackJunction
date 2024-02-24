@@ -1,6 +1,8 @@
-import React from 'react'
-import '../index.css'
-import Features from './featues';
+import React from "react";
+import "../index.css";
+import Features from "./featues";
+import FAQ from "./faq";
+import Tests from './testimonials';
 export default function LandingPageWithHero() {
   return (
     <main className="relative antialiased bg-white dark:bg-[#25292A] z-0 overflow-hidden">
@@ -28,7 +30,9 @@ export default function LandingPageWithHero() {
         <div className="relative flex flex-row space-x-1 items-center">
           <div className="absolute h-6 w-4 bg-blue-500 transform -skew-x-12 z-10"></div>
           <div className="absolute top-0 left-1 h-6 w-4 bg-green-500 transform -skew-x-12"></div>
-          <h1 className="pl-5 text-2xl font-bold italic text-gray-700 dark:text-gray-50">HackJunction</h1>
+          <h1 className="pl-5 text-2xl font-bold italic text-gray-700 dark:text-gray-50">
+            HackJunction
+          </h1>
         </div>
         <div className="flex flex-row items-center space-x-8">
           <a
@@ -79,11 +83,14 @@ export default function LandingPageWithHero() {
       <header className="mt-4 md:mt-20 flex flex-col md:flex-row space-x-2 px-4 md:px-20">
         <div className="w-full md:w-1/2">
           <h1 className="text-2xl md:text-4xl lg:text-6xl font-bold text-gray-800 dark:text-gray-50">
-          Sparking Hackathon Innovation, Linking Innovators, Hosting the Future at{' '}
+            Sparking Hackathon Innovation, Linking Innovators, Hosting the
+            Future at{" "}
             <span className="font-thin tracking-wider">Your Fingertips.</span>
           </h1>
           <p className="my-10 text-gray-800 font-light max-w-xl dark:text-gray-200">
-          Streamline your hackathon experience with our all-in-one platform, connecting organizers with sponsors, catering, and venues seamlessly.
+            Streamline your hackathon experience with our all-in-one platform,
+            connecting organizers with sponsors, catering, and venues
+            seamlessly.
           </p>
           <div className="relative px-8 py-2 border rounded-3xl bg-white cursor-pointer inline-block">
             <div
@@ -99,10 +106,15 @@ export default function LandingPageWithHero() {
           </div>
         </div>
 
-        <div className="hidden md:block w-full md:w-1/2" style={{ perspective: '800px' }}>
+        <div
+          className="hidden md:block w-full md:w-1/2"
+          style={{ perspective: "800px" }}
+        >
           <div
             className="img-container rounded-xl overflow-hidden p-2 bg-white transform shadow-2xl"
-            style={{ transform: 'rotateX(40deg) rotateZ(6deg) rotateY(-10deg)' }}
+            style={{
+              transform: "rotateX(40deg) rotateZ(6deg) rotateY(-10deg)",
+            }}
           >
             <img
               className="rounded-lg"
@@ -114,7 +126,9 @@ export default function LandingPageWithHero() {
       </header>
       <Features />
       <section className="flex flex-col md:flex-row justify-between bg-gray-600 items-center px-20 py-10 mt-20">
-        <h1 className="text-2xl font-bold text-gray-50">Companies who trust us</h1>
+        <h1 className="text-2xl font-bold text-gray-50">
+          Companies who trust us
+        </h1>
         <div className="companies flex flex-row items-center flex-wrap justify-center">
           <div className="my-4 mx-4">
             <img
@@ -150,11 +164,12 @@ export default function LandingPageWithHero() {
         <div className="grid grid-cols-1 md:grid-cols-2 px-8 my-2 max-w-6xl mx-auto items-center mt-10">
           <div>
             <h1 className="text-4xl font-bold dark:text-gray-50 text-gray-700">
-              Payments in <span className="text-[#1a759f]">one click</span> without any hassle
+              Payments in <span className="text-[#1a759f]">one click</span>{" "}
+              without any hassle
             </h1>
             <p className="my-8 dark:text-gray-200 text-gray-600">
-              Get additional 40% off on your next referral. Refer a friend and earn money.
-              Conditions apply!
+              Get additional 40% off on your next referral. Refer a friend and
+              earn money. Conditions apply!
             </p>
             <div className="relative px-8 py-2 border rounded-3xl bg-white cursor-pointer inline-block">
               <div
@@ -234,6 +249,10 @@ export default function LandingPageWithHero() {
           </div>
         </div>
       </section>
+      <Tests/>
+      <div>
+        <FAQ />
+      </div>
       <div className="py-6 flex flex-col justify-center sm:py-12 md:-mt-20 dark:bg-[#25292A]">
         <div className="h-90 rounded-xl p-4 m-2">
           <div className="md:flex justify-around px-10 py-8">
@@ -288,5 +307,5 @@ export default function LandingPageWithHero() {
         </div>
       </div>
     </main>
-  )
+  );
 }
