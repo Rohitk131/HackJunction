@@ -11,6 +11,20 @@ import DialogContent from '@mui/material/DialogContent';
 import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
 import Subscribe from '/subscribe.png';
+import Stack from '@mui/material/Stack';
+import Paper from '@mui/material/Paper';
+import { styled } from '@mui/material/styles';
+
+const DemoPaper = styled(Paper)(({ theme }) => ({
+  width: 1500,
+  height: 100,
+  padding: theme.spacing(4),
+  ...theme.typography.body2,
+  textAlign: 'center',
+  fontWeight: 'bolder',
+  fontSize: '30px',
+  ":hover":{color:'white'}
+}));
 
 const Sponsors = () => {
     const data = [
@@ -84,11 +98,18 @@ const Sponsors = () => {
             <section className='bg-[#1b1e1f] h-screen'>
             <h1 className='w-fit mx-auto text-5xl my-10 p-10 font-bold tracking-wider'>Find Actively Participating Sponsors</h1>
             <div className='h-[72vh]'>
+            <Stack direction="column" spacing={2} className='w-fit mx-auto'>
+      <DemoPaper variant="elevation" className='scale-100 hover:bg-red-800 hover:scale-110  cursor-pointer'>Zebpay</DemoPaper>
+      <DemoPaper variant="elevation" className='scale-100 hover:bg-slate-800 hover:scale-110  cursor-pointer'>Celo</DemoPaper>
+      <DemoPaper variant="elevation" className='scale-100 hover:bg-green-800 hover:scale-110  cursor-pointer'>Stripe</DemoPaper>
+      <DemoPaper variant="elevation" className='scale-100 hover:bg-cyan-800 hover:scale-110  cursor-pointer'>Devpost</DemoPaper>
+      <DemoPaper variant="elevation" className='scale-100 hover:bg-amber-800 hover:scale-110 cursor-pointer'>Codethink</DemoPaper>
+    </Stack>
 
             </div>
             {/* <Button variant="outlined" sx={{color: "white", borderColor:"white", marginX:"45vw"}} onClick={handleClickOpen}>See More</Button> */}
             <React.Fragment>
-      <Button variant="outlined" sx={{color: "white", borderColor:"white", marginLeft:"46vw"}} onClick={handleClickOpen} >
+      <Button variant="outlined" sx={{color: "white", borderColor:"white", marginLeft:"44vw",width: "200px"}} onClick={handleClickOpen} >
         See More
       </Button>
       <Dialog onClose={handleClose} aria-labelledby="customized-dialog-title" open={open}>
