@@ -68,7 +68,7 @@ const Sponsors = () => {
           <div className='h-[72vh]'>
             <Stack direction="column" spacing={2} className='w-fit mx-auto'>
               <DemoPaper variant="elevation" className='scale-100 hover:bg-red-800 hover:scale-110  cursor-pointer'>Zebpay</DemoPaper>
-              <DemoPaper variant="elevation" className='scale-100 hover:bg-slate-800 hover:scale-110  cursor-pointer'>Celo</DemoPaper>
+              <DemoPaper variant="elevation" className='scale-100 hover:bg-indigo-900 hover:scale-110  cursor-pointer'>Celo</DemoPaper>
               <DemoPaper variant="elevation" className='scale-100 hover:bg-green-800 hover:scale-110  cursor-pointer'>Stripe</DemoPaper>
               <DemoPaper variant="elevation" className='scale-100 hover:bg-cyan-800 hover:scale-110  cursor-pointer'>Devpost</DemoPaper>
               <DemoPaper variant="elevation" className='scale-100 hover:bg-amber-800 hover:scale-110 cursor-pointer'>Codethink</DemoPaper>
