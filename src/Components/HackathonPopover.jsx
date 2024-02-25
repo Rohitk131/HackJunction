@@ -1,8 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
+import HackathonModePopover from './HackathonModePopover';
 
 const HackathonPopover = ({ onSelect }) => {
+  const [showModePopover, setShowModePopover] = useState(false);
+
+  const handleStartSetup = (type) => {
+    onSelect(type);
+    setShowModePopover(true);
+  };
+
+  const handlePopoverClick = (e) => {
+    e.stopPropagation();
+  };
+
   return (
-    <div className="hackathon-popover" style={popoverStyle}>
+    <div className="hackathon-popover" style={popoverStyle} onClick={handlePopoverClick}>
       <div className="left-section" style={leftSectionStyle}>
         <div className="card">
           <div className="description">
@@ -14,7 +26,7 @@ const HackathonPopover = ({ onSelect }) => {
               <li>Create networking opportunities for participants</li>
             </ul>
           </div>
-          <button onClick={() => onSelect('students')} className="start-button" style={buttonStyle}>Start Hackathon Setup</button>
+          <button onClick={() => handleStartSetup('students')} className="start-button" style={buttonStyle}>Start Hackathon Setup</button>
         </div>
       </div>
       <div className="right-section" style={rightSectionStyle}>
@@ -28,10 +40,11 @@ const HackathonPopover = ({ onSelect }) => {
               <li>Promote collaboration and innovation within the community</li>
             </ul>
           </div>
-          <button onClick={() => onSelect('companies')} className="start-button" style={buttonStyle}>Start Hackathon Setup</button>
+          <button onClick={() => handleStartSetup('companies')} className="start-button" style={buttonStyle}>Start Hackathon Setup</button>
         </div>
       </div>
       <span className="close-button" style={closeButtonStyle} onClick={() => onSelect(null)}>✖</span>
+      {showModePopover && <HackathonModePopover onSelectMode={onSelect} onCancel={() => setShowModePopover(false)} />}
     </div>
   );
 }
