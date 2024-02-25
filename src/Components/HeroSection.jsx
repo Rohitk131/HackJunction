@@ -29,15 +29,16 @@ export default function LandingPageWithHero() {
         </svg>
       </div>
       <nav className="flex flex-row items-center justify-between px-4 md:px-20 py-10">
-        <div className="relative flex flex-row space-x-1 items-center">
-          <div className="absolute h-6 w-4 bg-blue-500 transform -skew-x-12 z-10"></div>
-          <div className="absolute top-0 left-1 h-6 w-4 bg-green-500 transform -skew-x-12"></div>
-          <h1 className="pl-5 text-2xl font-bold italic text-gray-700 dark:text-gray-50">
-            HackJunction
-          </h1>
-        </div>
+        <Link to="/">
+          <div className="relative flex flex-row space-x-1 items-center">
+            <div className="absolute h-6 w-4 bg-blue-500 transform -skew-x-12 z-10"></div>
+            <div className="absolute top-0 left-1 h-6 w-4 bg-green-500 transform -skew-x-12"></div>
+            <h1 className="pl-5 text-2xl font-bold italic text-gray-700 dark:text-gray-50">
+              HackJunction
+            </h1>
+          </div></Link>
         <div className="flex flex-row items-center space-x-8">
-        <Link
+          <Link
             to="/"
             className="hidden md:block font-semibold text-gray-500 hover:text-green-500 transition duration-100 dark:text-gray-200"
           >
@@ -78,12 +79,13 @@ export default function LandingPageWithHero() {
               className="absolute inset-0 transform translate-x-1 translate-y-2 rounded-3xl border border-gray-800 dark:border-gray-50 px-8 py-2"
               style={{ zIndex: -10 }}
             ></div>
-            <a
-              href="#"
-              className="relative text-gray-700 font-bold hover:text-green-500 transition duration-100 transform hover:-translate-y-2 hover:-translate-x-1"
-            >
-              Login
-            </a>
+            <Link to="/signin">
+              <a
+                href="#"
+                className="relative text-gray-700 font-bold hover:text-green-500 transition duration-100 transform hover:-translate-y-2 hover:-translate-x-1"
+              >
+                Login
+              </a></Link>
           </div>
         </div>
       </nav>
@@ -105,12 +107,13 @@ export default function LandingPageWithHero() {
               className="absolute inset-0 transform translate-x-1 translate-y-2 rounded-3xl border px-8 py-2"
               style={{ zIndex: -10 }}
             ></div>
-            <a
-              href="#"
-              className="relative text-gray-700 font-bold hover:text-green-500 transition duration-100 transform hover:-translate-y-2 hover:-translate-x-1"
-            >
-              Create Account
-            </a>
+            <Link to={"/signup"}>
+              <a
+                href="#"
+                className="relative text-gray-700 font-bold hover:text-green-500 transition duration-100 transform hover:-translate-y-2 hover:-translate-x-1"
+              >
+                Create Account
+              </a></Link>
           </div>
         </div>
 
@@ -134,39 +137,39 @@ export default function LandingPageWithHero() {
       </header>
       <Features />
       <section className="bg-[#25292A] py-16 rounded-xl">
-            <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="text-center">
-                    <h2 className="text-3xl font-bold text-white sm:text-4xl">Hackathon Stats</h2>
-                    <p className="mt-2 text-sm text-gray-600">Explore some interesting statistics about our hackathons.</p>
-                </div>
-                <div className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
-                    <div className="bg-white overflow-hidden shadow rounded-lg">
-                        <div className="px-4 py-5 sm:p-6">
-                            <h3 className="text-lg font-semibold text-gray-900">Participants</h3>
-                            <p className="mt-1 text-sm text-gray-600">Over 1000 participants joined our hackathons.</p>
-                        </div>
-                    </div>
-                    <div className="bg-white overflow-hidden shadow rounded-lg">
-                        <div className="px-4 py-5 sm:p-6">
-                            <h3 className="text-lg font-semibold text-gray-900">Projects</h3>
-                            <p className="mt-1 text-sm text-gray-600">More than 500 innovative projects were created.</p>
-                        </div>
-                    </div>
-                    <div className="bg-white overflow-hidden shadow rounded-lg">
-                        <div className="px-4 py-5 sm:p-6">
-                            <h3 className="text-lg font-semibold text-gray-900">Prizes</h3>
-                            <p className="mt-1 text-sm text-gray-600">Distributed over $50,000 in prizes.</p>
-                        </div>
-                    </div>
-                    <div className="bg-white overflow-hidden shadow rounded-lg">
-                        <div className="px-4 py-5 sm:p-6">
-                            <h3 className="text-lg font-semibold text-gray-900">Sponsors</h3>
-                            <p className="mt-1 text-sm text-gray-600">Partnered with 20+ leading tech companies.</p>
-                        </div>
-                    </div>
-                </div>
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h2 className="text-3xl font-bold text-white sm:text-4xl">Hackathon Stats</h2>
+            <p className="mt-2 text-sm text-gray-600">Explore some interesting statistics about our hackathons.</p>
+          </div>
+          <div className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="bg-white overflow-hidden shadow rounded-lg">
+              <div className="px-4 py-5 sm:p-6">
+                <h3 className="text-lg font-semibold text-gray-900">Participants</h3>
+                <p className="mt-1 text-sm text-gray-600">Over 1000 participants joined our hackathons.</p>
+              </div>
             </div>
-        </section>
+            <div className="bg-white overflow-hidden shadow rounded-lg">
+              <div className="px-4 py-5 sm:p-6">
+                <h3 className="text-lg font-semibold text-gray-900">Projects</h3>
+                <p className="mt-1 text-sm text-gray-600">More than 500 innovative projects were created.</p>
+              </div>
+            </div>
+            <div className="bg-white overflow-hidden shadow rounded-lg">
+              <div className="px-4 py-5 sm:p-6">
+                <h3 className="text-lg font-semibold text-gray-900">Prizes</h3>
+                <p className="mt-1 text-sm text-gray-600">Distributed over $50,000 in prizes.</p>
+              </div>
+            </div>
+            <div className="bg-white overflow-hidden shadow rounded-lg">
+              <div className="px-4 py-5 sm:p-6">
+                <h3 className="text-lg font-semibold text-gray-900">Sponsors</h3>
+                <p className="mt-1 text-sm text-gray-600">Partnered with 20+ leading tech companies.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="pt-20 dark:bg-gray-700">
         <div className="grid grid-cols-1 md:grid-cols-2 px-8 my-2 max-w-6xl mx-auto items-center mt-10">
           <div>
@@ -175,8 +178,8 @@ export default function LandingPageWithHero() {
               registration for hackathons.
             </h1>
             <p className="my-8 dark:text-gray-200 text-gray-600">
-            With the HackJunction platform, registering for hackathons has never been easier. 
-            HackJunction provides a smooth and secure payment experience for hackathon enthusiasts.
+              With the HackJunction platform, registering for hackathons has never been easier.
+              HackJunction provides a smooth and secure payment experience for hackathon enthusiasts.
             </p>
             <div className="relative px-8 py-2 border rounded-3xl bg-white cursor-pointer inline-block">
               <div
@@ -256,7 +259,7 @@ export default function LandingPageWithHero() {
           </div>
         </div>
       </section>
-      <Tests/>
+      <Tests />
       <div>
         <FAQ />
       </div>

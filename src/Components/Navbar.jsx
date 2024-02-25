@@ -5,11 +5,12 @@ const Navbar = () => {
   return (
     <div className='bg-[#1b1e1f]'>
       <nav className="flex flex-row items-center justify-between px-4 md:px-20 py-10">
-        <div className="relative flex flex-row space-x-1 items-center">
-          <div className="absolute h-6 w-4 bg-blue-500 transform -skew-x-12 z-10"></div>
-          <div className="absolute top-0 left-1 h-6 w-4 bg-green-500 transform -skew-x-12"></div>
-          <h1 className="pl-5 text-2xl font-bold italic text-gray-700 dark:text-gray-50">HackJunction</h1>
-        </div>
+        <Link to="/">
+          <div className="relative flex flex-row space-x-1 items-center cursor-pointer">
+            <div className="absolute h-6 w-4 bg-blue-500 transform -skew-x-12 z-10"></div>
+            <div className="absolute top-0 left-1 h-6 w-4 bg-green-500 transform -skew-x-12"></div>
+            <h1 className="pl-5 text-2xl font-bold italic text-gray-700 dark:text-gray-50">HackJunction</h1>
+          </div></Link>
         <div className="flex flex-row items-center space-x-8">
           <Link
             to="/"
