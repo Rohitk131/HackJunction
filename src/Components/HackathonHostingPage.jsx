@@ -22,7 +22,7 @@ const HackathonHostingPage = () => {
     <div className="hackathon-hosting-page" style={pageContainerStyle}>
       <h2 style={pageTitleStyle}>Host a Hackathon</h2>
       <p style={paragraphStyle}>
-        The only thing that can match the thrill of attending a hackathon is the exhilaration of organizing one yourself! Join 100s of other hackathons on Devfolio and manage your applications, submissions, comms, reimbursements, and judging, all on our platform.
+        The only thing that can match the thrill of attending a hackathon is the exhilaration of organizing one yourself! Join 100s of other hackathons on HackJunction and manage your applications, submissions, comms, reimbursements, and judging, all on our platform.
       </p>
       <button
         onClick={togglePopover}

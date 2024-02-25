@@ -4,10 +4,32 @@ const HackathonPopover = ({ onSelect }) => {
   return (
     <div className="hackathon-popover" style={popoverStyle}>
       <div className="left-section" style={leftSectionStyle}>
-        <button onClick={() => onSelect('students')} className="option" style={buttonStyle}>Organize a hackathon for students</button>
+        <div className="card">
+          <div className="description">
+            <h1 style={headingStyle}>Organize a Hackathon for Students</h1>
+            <p>Partner with great companies for exciting bounties and sponsorships</p>
+            <ul>
+              <li>Engage students with challenging problem statements</li>
+              <li>Provide mentorship and guidance throughout the hackathon</li>
+              <li>Create networking opportunities for participants</li>
+            </ul>
+          </div>
+          <button onClick={() => onSelect('students')} className="start-button" style={buttonStyle}>Start Hackathon Setup</button>
+        </div>
       </div>
       <div className="right-section" style={rightSectionStyle}>
-        <button onClick={() => onSelect('companies')} className="option" style={buttonStyle}>Organize a hackathon for companies/communities</button>
+        <div className="card">
+          <div className="description">
+            <h1 style={headingStyle}>Organize a Hackathon for Companies/Communities</h1>
+            <p>Get Listed on the Hackathon Page for more reach</p>
+            <ul>
+              <li>Attract companies and community groups to participate</li>
+              <li>Offer valuable prizes and incentives for winning solutions</li>
+              <li>Promote collaboration and innovation within the community</li>
+            </ul>
+          </div>
+          <button onClick={() => onSelect('companies')} className="start-button" style={buttonStyle}>Start Hackathon Setup</button>
+        </div>
       </div>
       <span className="close-button" style={closeButtonStyle} onClick={() => onSelect(null)}>✖</span>
     </div>
@@ -23,23 +45,34 @@ const popoverStyle = {
   padding: '20px',
   border: '1px solid #ccc',
   borderRadius: '10px',
+  display: 'flex', 
 };
 
 const leftSectionStyle = {
   marginRight: '20px',
+  flex: '1', 
 };
 
 const rightSectionStyle = {
-  marginLeft: '20px',
+  flex: '1', 
+};
+
+const headingStyle = {
+  fontSize: '24px', // Adjust the font size as desired
 };
 
 const buttonStyle = {
   display: 'block',
-  marginBottom: '10px',
+  width: '100%',
   padding: '10px',
-  backgroundColor: '#f0f0f0',
+  backgroundColor: '#007bff',
+  color: '#fff',
   border: 'none',
+  borderRadius: '5px',
   cursor: 'pointer',
+  fontSize: '16px',
+  fontWeight: 'bold',
+  transition: 'background-color 0.3s ease',
 };
 
 const closeButtonStyle = {
