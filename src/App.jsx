@@ -10,7 +10,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
 function App() {
   return (
-    <>
+    <div className='scrollbar-thin scrollbar-thumb-blue-500 scrollbar-track-slate-900 h-screen overflow-y-scroll'>
     <Router>
       <Routes>
         <Route path='/' element={<HeroSection />}></Route>
@@ -23,7 +23,7 @@ function App() {
         <Route path='/judges&mentors' element={<JudgesMentors />}></Route>
       </Routes>
     </Router>
-    </>
+    </div>
   )
 }
 

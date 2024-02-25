@@ -32,7 +32,7 @@ const Venue = () => {
 
 
   return (
-    <div className='bg-[#25292A] h-full text-white'>
+    <div className='bg-[#25292A] h-full text-white' >
       <Navbar current="venue" />
       <header>
         <h1 className='w-fit mx-auto text-7xl my-10 font-bold tracking-tighter'>Find a Venue</h1>
@@ -67,9 +67,9 @@ const Venue = () => {
           </div>
         </div>
       </header>
-      <section className='w-fit mx-auto grid grid-rows-1 md:grid-rows-3'>
+      <section className='w-fit mx-auto grid grid-cols-2 md:grid-rows-3'>
         {filteredData.map((city) => (
-          <div className='mx-24' key={city.title}>
+          <div className='mx-6' key={city.title}>
             {city.colleges.map((college, index) => (
               <div key={index} className="m-5">
                 <div className="block rounded-lg bg-white text-center shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">

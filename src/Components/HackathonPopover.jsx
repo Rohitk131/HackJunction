@@ -10,11 +10,12 @@ const HackathonPopover = ({ onSelect }) => {
   };
 
   const handlePopoverClick = (e) => {
-    e.stopPropagation();
+    // Prevent the default behavior (if any), but do not stop event propagation
+    e.preventDefault();
   };
 
   return (
-    <div className="hackathon-popover" style={popoverStyle} onClick={handlePopoverClick}>
+    <div className="hackathon-popover gap-10 p-20" style={popoverStyle} onClick={handlePopoverClick}>
       <div className="left-section" style={leftSectionStyle}>
         <div className="card">
           <div className="description">
@@ -26,12 +27,12 @@ const HackathonPopover = ({ onSelect }) => {
               <li>Create networking opportunities for participants</li>
             </ul>
           </div>
-          <button onClick={() => handleStartSetup('students')} className="start-button" style={buttonStyle}>Start Hackathon Setup</button>
+          <button onClick={() => handleStartSetup('students')} className="start-button mt-4" style={buttonStyle}>Start Hackathon Setup</button>
         </div>
       </div>
       <div className="right-section" style={rightSectionStyle}>
         <div className="card">
-          <div className="description">
+          <div className="description ">
             <h1 style={headingStyle}>Organize a Hackathon for Companies/Communities</h1>
             <p>Get Listed on the Hackathon Page for more reach</p>
             <ul>
@@ -40,7 +41,7 @@ const HackathonPopover = ({ onSelect }) => {
               <li>Promote collaboration and innovation within the community</li>
             </ul>
           </div>
-          <button onClick={() => handleStartSetup('companies')} className="start-button" style={buttonStyle}>Start Hackathon Setup</button>
+          <button onClick={() => handleStartSetup('companies')} className="start-button mt-4" style={buttonStyle}>Start Hackathon Setup</button>
         </div>
       </div>
       <span className="close-button" style={closeButtonStyle} onClick={() => onSelect(null)}>✖</span>

@@ -63,10 +63,10 @@ const Sponsors = () => {
 
           })}
         </section>
-        <section className='bg-[#1b1e1f] h-full'>
-          <h1 className='w-fit mx-auto text-5xl my-2 p-10 font-bold tracking-wider'>Find Actively Participating Sponsors</h1>
-          <div className='h-fit mb-5'>
-            <Stack direction="column" spacing={2} className='w-fit mx-auto'>
+        <section className='bg-[#1b1e1f] h-full w-screen'>
+          <h1 className=' mx-auto text-5xl my-2 p-10 font-bold tracking-wider'>Find Actively Participating Sponsors</h1>
+          <div className='h-fit mb-5 '>
+            <Stack direction="column" spacing={2} className=' mx-auto'>
               <DemoPaper variant="elevation" className='scale-90 hover:bg-red-800 hover:scale-100  cursor-pointer' >Zebpay</DemoPaper>
               <DemoPaper variant="elevation" className='scale-90 hover:bg-slate-800 hover:scale-100  cursor-pointer' >Celo</DemoPaper>
               <DemoPaper variant="elevation" className='scale-90 hover:bg-green-800 hover:scale-100  cursor-pointer' >Stripe</DemoPaper>
