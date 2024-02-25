@@ -17,7 +17,7 @@ const HackathonHostingPage = () => {
    };
 
   return (<div className='bg-black h-[100vh]'>
-    <Navbar />
+    <Navbar current="hackathons" />
     <div className="hackathon-hosting-page" style={pageContainerStyle}>
       <h2 style={pageTitleStyle}>Host a Hackathon</h2>
       <p style={paragraphStyle}>

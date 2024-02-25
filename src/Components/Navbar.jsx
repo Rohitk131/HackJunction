@@ -14,37 +14,37 @@ const Navbar = ({current}) => {
         <div className="flex flex-row items-center space-x-8">
           <Link
             to="/"
-            className="\block font-semibold text-gray-500 hover:text-green-500 transition duration-100 dark:text-gray-200"
+            className={`block font-semibold hover:text-green-500 transition py-1 px-3 rounded-lg duration-100 ${current=="home" ? "bg-white text-gray-900" : "text-gray-200"}`}
           >
             Home
           </Link>
           <Link
             to="/hackathons"
-            className="hidden md:block font-semibold text-gray-500 hover:text-green-500 transition duration-100 dark:text-gray-200"
+            className={`block font-semibold hover:text-green-500 transition py-1 px-3 rounded-lg duration-100 ${current=="hackathons" ? "bg-white text-gray-900" : "text-gray-200"}`}
           >
             Hackathons
           </Link>
           <Link
             to="/sponsors"
-            className="\block font-semibold text-gray-500 hover:text-green-500 transition duration-100 dark:text-gray-200"
+            className={`block font-semibold hover:text-green-500 transition py-1 px-3 rounded-lg duration-100 ${current=="sponsors" ? "bg-white text-gray-900" : "text-gray-200"}`}
           >
             Sponsors
           </Link>
           <Link
             to="/venue"
-            className="\block font-semibold text-gray-500 hover:text-green-500 transition duration-100 dark:text-gray-200"
+            className={`block font-semibold hover:text-green-500 transition py-1 px-3 rounded-lg duration-100 ${current=="venue" ? "bg-white text-gray-900" : "text-gray-200"}`}
           >
             Venue
           </Link>
           <Link
             to="/catering"
-            className="\block font-semibold text-gray-500 hover:text-green-500 transition duration-100 dark:text-gray-200"
+            className={`block font-semibold hover:text-green-500 transition py-1 px-3 rounded-lg duration-100 ${current=="catering" ? "bg-white text-gray-900" : "text-gray-200"}`}
           >
             Catering
           </Link>
           <Link
             to='/judges&mentors'
-            className="\block font-semibold text-gray-500 hover:text-green-500 transition duration-100 dark:text-gray-200"
+            className={`block font-semibold hover:text-green-500 transition py-1 px-3 rounded-lg duration-100 ${current=="judges" ? "bg-white text-gray-900" : "text-gray-200"}`}
           >
             Judges / Mentors
           </Link>

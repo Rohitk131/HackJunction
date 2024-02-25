@@ -39,7 +39,7 @@ const Sponsors = () => {
 
   return (
     <div className='bg-[#25292A] text-white'>
-      <Navbar />
+      <Navbar current="sponsors"  />
       <div>
         <h1 className='w-fit mx-auto text-5xl my-10 font-bold tracking-tighter'>Explore our featured Sponsors</h1>
         <section className='w-fit mx-auto my-10 grid grid-cols-1 md:grid-cols-3'>

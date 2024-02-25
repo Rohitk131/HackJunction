@@ -38,7 +38,7 @@ const Catering = () => {
     ];
     return (
         <>
-            <Navbar />
+            <Navbar current="catering" />
             <div className='h-screen bg-[#25292A]'>
                 <div className='bg-[#25292A] text-white h-auto'>
                     <section className="w-full" id="menu">
