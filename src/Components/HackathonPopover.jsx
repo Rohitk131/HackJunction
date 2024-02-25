@@ -10,7 +10,7 @@ const HackathonPopover = ({ onSelect }) => {
   };
 
   const handlePopoverClick = (e) => {
-    e.stopPropagation(); // Prevent event propagation
+    e.stopPropagation();
   };
 
   return (
