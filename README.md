@@ -22,8 +22,7 @@ The Hack Junction website is deployed on Vercel. You can access it [here](https:
 
 1. Visit the deployed website using the link provided above.
 2. Explore the various features and functionalities available on the platform.
-3. Sign up for an account to access additional features such as saving preferences and booking services.
-4. Start organizing your hackathon with confidence and efficiency!
+3. Start organizing your hackathon with confidence and efficiency!
 
 ## Contributing
 
@@ -32,13 +31,5 @@ We welcome contributions to improve and enhance the Hack Junction platform. If y
 ## Issues
 
 If you encounter any issues while using Hack Junction or have suggestions for improvements, please open an issue on the GitHub repository. Your feedback is invaluable, and we will strive to address any concerns promptly.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Contact
-
-If you have any questions or need assistance, you can contact us at [contact@hackjunction.com](mailto:contact@hackjunction.com).
 
 Let's make your hackathons unforgettable with Hack Junction! 🚀
