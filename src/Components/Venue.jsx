@@ -2,6 +2,13 @@ import React, { useState } from 'react';
 import Navbar from './Navbar';
 import { TERipple } from 'tw-elements-react';
 import data from '../static_utils/venue.json';
+import Dialog from '@mui/material/Dialog';
+import DialogTitle from '@mui/material/DialogTitle';
+import DialogContent from '@mui/material/DialogContent';
+import IconButton from '@mui/material/IconButton';
+import CloseIcon from '@mui/icons-material/Close';
+import Button from '@mui/material/Button';
+import Subscribe from '/subscribe.png';
 
 const Venue = () => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -13,6 +20,16 @@ const Venue = () => {
   const filteredData = data.filter(city =>
     city.title.toLowerCase().includes(searchQuery.toLowerCase())
   );
+
+  const [open, setOpen] = React.useState(false);
+
+  const handleClickOpen = () => {
+    setOpen(true);
+  };
+  const handleClose = () => {
+    setOpen(false);
+  };
+
 
   return (
     <div className='bg-[#25292A] h-full text-white'>
@@ -66,11 +83,47 @@ const Venue = () => {
               <p className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
                 {college.description}
               </p>
+                <React.Fragment>
                 <button
                   type="button"
-                  className="inline-block rounded p-3 px-10 text-sm font-medium  bg-[#1b1e1f] hover:bg-black cursor-pointer">
+                  className="inline-block rounded p-3 px-10 text-sm font-medium  bg-[#1b1e1f] hover:bg-black cursor-pointer"
+                  onClick={handleClickOpen}>
                   Book Now
                 </button>
+            <Dialog onClose={handleClose} aria-labelledby="customized-dialog-title" open={open}>
+
+              <DialogTitle sx={{ m: 0, p: 2, px: 27 }} id="customized-dialog-title" className='bg-gray-800 text-white'>
+                Get Subscription
+              </DialogTitle>
+              <IconButton
+                aria-label="close"
+                onClick={handleClose}
+                sx={{
+                  position: 'absolute',
+                  right: 8,
+                  top: 8,
+                  color: (theme) => theme.palette.grey[500],
+                }}
+              >
+                <CloseIcon />
+              </IconButton>
+              <DialogContent className='bg-[#25292A]'>
+                <div className='w-[32vw] px-4 bg-[#25292A] my-10'>
+                  <div className='w-[30vw] shadow-xl bg-[#1b1e1f] text-white flex flex-col p-4 rounded-lg hover:scale-105 duration-300'>
+                    <img className='w-20 mx-auto mt-[-3rem] invert' src={Subscribe} alt="/" />
+                    <h2 className='text-2xl font-bold text-center py-8'>Monthly</h2>
+                    <p className='text-center text-4xl font-bold'>₹5,000</p>
+                    <div className='text-center font-medium'>
+                      <p className='py-2 border-b mx-8 mt-8'>100+ Sponsors</p>
+                      <p className='py-2 border-b mx-8'>100+ Venues</p>
+                      <p className='py-2 border-b mx-8'>0% Brokerage</p>
+                    </div>
+                    <button className='bg-gray-700 text-gray-200 w-[300px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Start Trial</button>
+                  </div>
+                </div>
+              </DialogContent>
+            </Dialog>
+          </React.Fragment>
             </div>
           </div>
               </div>
