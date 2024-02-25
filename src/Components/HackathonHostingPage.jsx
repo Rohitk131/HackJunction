@@ -14,8 +14,7 @@ const HackathonHostingPage = () => {
   const handleOptionSelect = (option) => {
     setSelectedOption(option);
     togglePopover();
-    // Do something with the selected option (e.g., navigate to a different page)
-  };
+   };
 
   return (<div className='bg-black h-[100vh]'>
     <Navbar />
@@ -63,7 +62,6 @@ const paragraphStyle = {
   color: 'gray',
   fontSize: '20px',
 };
-
 const organizeButtonStyle = {
   padding: '15px 30px',
   backgroundColor: '#007bff',
@@ -74,17 +72,11 @@ const organizeButtonStyle = {
   fontSize: '16px',
   fontWeight: 'bold',
   transition: 'background-color 0.3s ease',
-  
 };
-
-
-
-// Define hover effect using CSS class
 const handleMouseEnter = (event) => {
   event.target.classList.add('hovered');
   event.target.classList.add('shadow-2xl');
 };
-
 const handleMouseLeave = (event) => {
   event.target.classList.remove('hovered');
   event.target.classList.remove('shadow-2xl');

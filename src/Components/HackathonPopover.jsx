@@ -58,7 +58,7 @@ const rightSectionStyle = {
 };
 
 const headingStyle = {
-  fontSize: '24px', // Adjust the font size as desired
+  fontSize: '24px',
 };
 
 const buttonStyle = {
