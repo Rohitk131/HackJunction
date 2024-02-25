@@ -1,0 +1,104 @@
+[
+    {
+        "img":"https://media.licdn.com/dms/image/C4E03AQEWyEmY8__G5Q/profile-displayphoto-shrink_400_400/0/1559793870281?e=1714608000&v=beta&t=6qxDq9TKU8IBSvuc2z23NyNf0nW3uVgmprmb73yxL50",
+        "name":"Sangram Rath",
+        "desc":"Cloud Architect & Technology Advisor | Author | Hackathon Judge | Speaker | Multi-Cloud Certified & Instructor (since 2013)",
+        "linkedin":"https://www.linkedin.com/in/sangramrath/"
+    },
+    {
+        "img":"https://media.licdn.com/dms/image/D4D03AQFcqoQmnOV1yA/profile-displayphoto-shrink_400_400/0/1683199214512?e=1714608000&v=beta&t=zm4DKXhCLka8-sBWeY6owUhd2MQ7e0szkNA9wSizruE",
+        "name":"Ishaan Gupta",
+        "desc":"Android Developer | Developer Of Bharat Document Scanner | Hackathon Mentor and Judge",
+        "linkedin":"https://www.linkedin.com/in/ishaangupta1201/"
+    },
+    {
+        "img":"https://media.licdn.com/dms/image/C4D03AQEBXWJQN9DYvg/profile-displayphoto-shrink_400_400/0/1652911948550?e=1714608000&v=beta&t=kCHLjckhWWXHT1Z9MMgJts1ZQv5IulFoj7ApEDxMir0",
+        "name":"Avinash koshal",
+        "desc":"Amazon OpenSearch SME | Cloud Support Engineer - II @AWS | Hackathon - Organiser/Judge/Mentor | Computer Vision | Linux | Minimalist",
+        "linkedin":"https://www.linkedin.com/in/avinashkoshal/"
+    },
+    {
+        "img":"https://media.licdn.com/dms/image/C5603AQH6RwXn99ehFg/profile-displayphoto-shrink_400_400/0/1647678471904?e=1714608000&v=beta&t=I7vn6kh27AAhpvBc6noJhLfUxrkWfxVwPeszEIQwf-g",
+        "name":"Niloy Sikdar",
+        "desc":"Full-stack Software Engineer working on AI products | GSoC'23 @Sugar Labs, GSoC'22 @SCoRe Lab | Prev: Founding Eng @Hyper AI, Eng @Semester, Avalon Scenes (Acquired by Unacademy), SAWO Labs | Prev Founding Lead@GDSC JGEC",
+        "linkedin":"https://www.linkedin.com/in/niloysikdar/"
+    },
+    {
+        "img":"https://media.licdn.com/dms/image/C4D03AQHH62SLDSGDiA/profile-displayphoto-shrink_400_400/0/1652030085067?e=1714608000&v=beta&t=BncKtS_S_NGuxMfWz2_9yXP9YzZCQkggFqiq0Sy75IM",
+        "name":"VIDHI BHATT",
+        "desc":"SDE Intern @Amazon '23 || Research Intern @IIT Roorkee '22 || Generation Google Scholar '22 || GHC '22, '23 || Beta MLSA || Building Codess.Cafe || CSE '24",
+        "linkedin":"https://www.linkedin.com/in/vidhibhatt01/"
+    },
+    {
+        "img":"https://media.licdn.com/dms/image/D4D03AQEpITBhPuDiuA/profile-displayphoto-shrink_400_400/0/1666970651617?e=1714608000&v=beta&t=L76dDaHDeCA8q_nmECptvpBcurG7pWoA2FKxBZ7MsJ0",
+        "name":"Sweety Kumari",
+        "desc":"Software Engineer Hackathon Mentor",
+        "linkedin":"https://www.linkedin.com/in/sweety-kumari-958656190/"
+    },
+    {
+        "img":"https://media.licdn.com/dms/image/C4E03AQEADqhYdr1KMA/profile-displayphoto-shrink_400_400/0/1626688808623?e=1714608000&v=beta&t=YWGdfYLuVVVD2aJ-wcTmXQq0VJ5TVRLhLVP0F9I2MVU",
+        "name":"Neeraj Kumar",
+        "desc":"Blue Prism MVP, BP Award Judge, BP 2x Hackathon Runner up,4x BP Certified- RPA Architect at Wipro | Ex-Ericsson | Blue Prism | Uipath",
+        "linkedin":"https://www.linkedin.com/in/neeraj-kumar-b8a691217/"
+    },
+    {
+        "img":"https://media.licdn.com/dms/image/C5603AQF3F__cWjdBaA/profile-displayphoto-shrink_400_400/0/1660144291865?e=1714608000&v=beta&t=OeM1hRgLiPDGcxZEfI163yZYJvl6d1LnsGwRqrKHbto",
+        "name":"Kritarth Mittal • Soshals",
+        "desc":"Founder, Soshals | Creator Economist | Software Developer | Public Speaker | 7x Hackathon Judge",
+        "linkedin":"https://www.linkedin.com/in/kritarth-mittal/"
+    },
+    {
+        "img":"https://media.licdn.com/dms/image/D5635AQECLn--IWpaqQ/profile-framedphoto-shrink_400_400/0/1676014861862?e=1709456400&v=beta&t=6ceUrM31d_SG11KiEdC-2neQpFVBigv_t4NJ89iwvr8",
+        "name":"Rohit Y. ",
+        "desc":"Community Builder & Mentor, Former Windows Insider MVP & Microsoft Intern, Ex- Gold Microsoft Learn Student Ambassador, 5x Microsoft Certified, MCA'23, Passionate about Technology & Community",
+        "linkedin":"https://www.linkedin.com/in/rty2423/"
+    },
+    {
+        "img":"https://media.licdn.com/dms/image/C4D03AQFQQU4AMZ7_5w/profile-displayphoto-shrink_400_400/0/1648040320645?e=1714608000&v=beta&t=qy6PMUzGDAHo2vsFWbxsDHkAlL3hselT9vtljJPw1X4",
+        "name":"Pranav Agarwal",
+        "desc":"Software Engineer @Headout | Building @The Frontend Club",
+        "linkedin":"https://www.linkedin.com/in/pranav-agr/"
+    },
+    {
+        "img":"https://media.licdn.com/dms/image/C4D03AQGSQqZfkdm3oA/profile-displayphoto-shrink_400_400/0/1599554962710?e=1714608000&v=beta&t=AS6Vf5uw15kc-_L2ecGY3AyHs0AGgAzpwr7jzyyFsWU",
+        "name":"Ganesh Bhise",
+        "desc":"R&D MBD Specialist | SIH 2019 Grand Finalist | SIH 2022 - Judge |SIH 2023 - Judge | UNESCO -India Africa Hackathon 2022 -Mentor | ENTC Engineer | Felicitated through Vice President of India 2022",
+        "linkedin":"https://www.linkedin.com/in/ganesh-bhise-%F0%9F%87%AE%F0%9F%87%B3-23b31814b/"
+    },
+    {
+        "img":"https://media.licdn.com/dms/image/D4D03AQEiEaeKNTcKqQ/profile-displayphoto-shrink_400_400/0/1697400971330?e=1714608000&v=beta&t=MoECZrPlg2URNQXny4_x43w_xdWT0gLOy4sZJL0XmiI",
+        "name":"Navika Chhauda",
+        "desc":"Microsoft MVP | Cloud Engineer | LinkedIn Top Voice | Graduate student at IIT Madras | Speaker at Microsoft Ignite 2021 | Judge@Microsoft ImagineCup Junior | Women Achiever of India",
+        "linkedin":"https://www.linkedin.com/in/navikachhauda/"
+    },
+    {
+        "img":"https://media.licdn.com/dms/image/D4D35AQHKNV0vnbXu7Q/profile-framedphoto-shrink_400_400/0/1680258913068?e=1709456400&v=beta&t=_KaYTi0W2zBFIhKB8ps6chd7IXjl6lUzYhl8_6ERu9Y",
+        "name":"Pankaj Gupta",
+        "desc":"KaggleX BIPOC Mentor | ML Research@JBS, UoCambridge, @AIISC, UoSC | Published Author @AAAI'23, ECIR'23, APSIT'23 | Former MLE Intern@Bosch, Pratham Education Foundation, Teach For India | AI Speaker | Hackathon Judge",
+        "linkedin":"https://www.linkedin.com/in/gupta-pankaj/"
+    },
+    {
+        "img":"https://media.licdn.com/dms/image/C4E03AQEZwDh7x2S1Mw/profile-displayphoto-shrink_400_400/0/1608288933867?e=1714608000&v=beta&t=GLy5Fkh_ueWO8lSFPo4uxV4OXstmtCygX5700Jijl6s",
+        "name":"Brij Patel",
+        "desc":"Software Developer at Thomson Reuters | 18 hackathons winner",
+        "linkedin":"https://www.linkedin.com/in/brijspatel/"
+    },
+    {
+        "img":"https://media.licdn.com/dms/image/C5103AQHcx99ex5NDzg/profile-displayphoto-shrink_400_400/0/1580374739233?e=1714608000&v=beta&t=R38lITCtE6QEOqPdMNko4Lsq6U7A7C-IVlmyhvXjAZo",
+        "name":"Shubhangi Gupta",
+        "desc":"DevRel @ DhiWise | Organiser GDG Noida | Women TechMaker | GitHub Campus Expert",
+        "linkedin":"https://www.linkedin.com/in/knowshubhangi/"
+    },
+    {
+        "img":"https://media.licdn.com/dms/image/D4D03AQFmghzwCAZutQ/profile-displayphoto-shrink_400_400/0/1671596175160?e=1714608000&v=beta&t=pP46R7Sq2w3f-Hm1WVNz3wtWrAdQTsz5qqVF-EdTo_o",
+        "name":"Rishikesh Kale",
+        "desc":"Blockchain Developer | 16x Web3 Hackathon Winner | Speaker | Hackathon Mentor & Judge | NFT & ERC 6551 | Zero Knowledge Proofs | Technical Writer | Hyperlane India Advocate",
+        "linkedin":"https://www.linkedin.com/in/rishikeshkale/"
+    },
+    {
+        "img":"https://media.licdn.com/dms/image/D4E03AQGUOEd_JjhMWQ/profile-displayphoto-shrink_400_400/0/1683059259606?e=1714608000&v=beta&t=DPLyF0guIx4YjOEu2vWBR2c-In9p378K-z-fgbuiqPM",
+        "name":"Yash Jain",
+        "desc":"CEO @ Hero Trainer | 2x Founder | Guest Lecturer | Key Note Speaker | Hackathon Judge | Startup Mentor |",
+        "linkedin":"https://linkedin.com/in/yashj/"
+    }
+]

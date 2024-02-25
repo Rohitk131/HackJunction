@@ -68,10 +68,10 @@ export default function LandingPageWithHero() {
             Catering
           </Link>
           <Link
-            to='/about'
+            to='judges&mentors'
             className="hidden md:block font-semibold text-gray-500 hover:text-green-500 transition duration-100 dark:text-gray-200"
           >
-            About Us
+            Judges / Mentors
           </Link>
           <div className="relative px-8 py-2 border border-gray-800 rounded-3xl bg-white dark:border-gray-50">
             <div
@@ -80,7 +80,7 @@ export default function LandingPageWithHero() {
             ></div>
             <a
               href="#"
-              className="relative text-gray-700 font-light hover:text-green-500 transition duration-100 transform hover:-translate-y-2 hover:-translate-x-1"
+              className="relative text-gray-700 font-bold hover:text-green-500 transition duration-100 transform hover:-translate-y-2 hover:-translate-x-1"
             >
               Login
             </a>
