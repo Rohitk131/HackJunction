@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Navbar from "./Navbar";
 const SignUp = () => {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
@@ -25,6 +26,8 @@ const SignUp = () => {
   };
 
   return (
+    <>
+    <Navbar/>
     <div className="bg-gray-900 min-h-screen flex justify-center items-center">
       <div className="max-w-md mx-auto bg-gray-800 p-8 rounded-md shadow-md">
         <h1 className="text-4xl font-bold text-center text-white mb-8">Create an Account</h1>
@@ -148,7 +151,7 @@ const SignUp = () => {
           </div>
 
           <div className="text-center">
-            <p>
+            <p className="text-white">
               Already have an account?{" "}
               <a href="/signin" className="text-blue-500 hover:underline">
                 Sign In
@@ -157,7 +160,7 @@ const SignUp = () => {
           </div>
         </form>
       </div>
-    </div>
+    </div></>
   );
 };
 

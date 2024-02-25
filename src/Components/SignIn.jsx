@@ -76,7 +76,7 @@ const SignIn = () => {
             </div>
 
             <div className="text-center">
-              <p>
+              <p className="text-white">
                 New user?{" "}
                 <a href="/signup" className="text-blue-500 hover:underline">
                   Create an account
