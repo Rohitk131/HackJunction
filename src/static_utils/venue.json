@@ -1,0 +1,209 @@
+[
+  {
+    "title": "Mumbai",
+    "colleges": [
+      {
+        "name": "Indian Institute of Technology Bombay",
+        "description": "Indian Institute of Technology Bombay (IIT Bombay) is a public technical and research university located in Powai, Mumbai. It is one of the premier engineering institutions in India."
+      },
+      {
+        "name": "University of Mumbai",
+        "description": "The University of Mumbai, informally known as Mumbai University, is a collegiate public state university located in Mumbai. It offers various undergraduate, postgraduate, and doctoral programs."
+      },
+      {
+        "name": "Tata Institute of Social Sciences",
+        "description": "Tata Institute of Social Sciences (TISS) is a multi-campus public research university located in Mumbai. It is known for its programs in social sciences, social work, and human resources management."
+      }
+    ]
+  },
+  {
+    "title": "Delhi",
+    "colleges": [
+      {
+        "name": "Indian Institute of Technology Delhi",
+        "description": "Indian Institute of Technology Delhi (IIT Delhi) is a public technical and research university located in Hauz Khas, Delhi. It is one of the top engineering institutions in India."
+      },
+      {
+        "name": "University of Delhi",
+        "description": "The University of Delhi, informally known as Delhi University, is a collegiate public central university located in New Delhi. It offers a wide range of academic programs."
+      },
+      {
+        "name": "Jamia Millia Islamia",
+        "description": "Jamia Millia Islamia (JMI) is a public central university located in Jamia Nagar, New Delhi. It offers various undergraduate, postgraduate, and doctoral programs."
+      }
+    ]
+  },
+  {
+    "title": "Bangalore",
+    "colleges": [
+      {
+        "name": "Indian Institute of Science",
+        "description": "Indian Institute of Science (IISc) is a public research university located in Bangalore. It is known for its research contributions in science and engineering."
+      },
+      {
+        "name": "Bangalore University",
+        "description": "Bangalore University is a public state university located in Bangalore. It offers various undergraduate, postgraduate, and doctoral programs."
+      },
+      {
+        "name": "Indian Institute of Management Bangalore",
+        "description": "Indian Institute of Management Bangalore (IIMB) is a public business school located in Bangalore. It is one of the top management institutions in India."
+      }
+    ]
+  },
+  {
+    "title": "Hyderabad",
+    "colleges": [
+      {
+        "name": "Indian Institute of Technology Hyderabad",
+        "description": "Indian Institute of Technology Hyderabad (IIT Hyderabad) is a public technical and research university located in Sangareddy district, Telangana. It is one of the newer IITs established in India."
+      },
+      {
+        "name": "University of Hyderabad",
+        "description": "The University of Hyderabad (UoH) is a public research university located in Hyderabad. It offers various postgraduate and doctoral programs in multiple disciplines."
+      },
+      {
+        "name": "International Institute of Information Technology Hyderabad",
+        "description": "International Institute of Information Technology Hyderabad (IIIT Hyderabad) is a research university located in Hyderabad. It is known for its programs in computer science and information technology."
+      }
+    ]
+  },
+  {
+    "title": "Chennai",
+    "colleges": [
+      {
+        "name": "Indian Institute of Technology Madras",
+        "description": "Indian Institute of Technology Madras (IIT Madras) is a public technical and research university located in Chennai. It is one of the top engineering institutions in India."
+      },
+      {
+        "name": "Anna University",
+        "description": "Anna University is a public state university located in Chennai. It offers undergraduate, postgraduate, and doctoral programs in engineering, technology, and applied sciences."
+      },
+      {
+        "name": "Madras Christian College",
+        "description": "Madras Christian College (MCC) is an autonomous college affiliated with the University of Madras. It offers undergraduate and postgraduate programs in arts, science, and commerce."
+      }
+    ]
+  },
+  {
+    "title": "Kolkata",
+    "colleges": [
+      {
+        "name": "Indian Institute of Technology Kharagpur",
+        "description": "Indian Institute of Technology Kharagpur (IIT Kharagpur) is a public technical and research university located in Kharagpur, West Bengal. It is one of the oldest and largest IITs in India."
+      },
+      {
+        "name": "University of Calcutta",
+        "description": "The University of Calcutta, informally known as Calcutta University, is a collegiate public state university located in Kolkata. It offers a wide range of academic programs."
+      },
+      {
+        "name": "Jadavpur University",
+        "description": "Jadavpur University is a public state university located in Kolkata. It is known for its programs in engineering, technology, arts, and science."
+      }
+    ]
+
+
+  },
+  {
+    "title": "Pune",
+    "colleges": [
+      {
+        "name": "Savitribai Phule Pune University",
+        "description": "Savitribai Phule Pune University (SPPU), formerly known as the University of Pune, is a collegiate public state university located in Pune, Maharashtra. It offers a wide range of undergraduate, postgraduate, and doctoral programs."
+      },
+      {
+        "name": "College of Engineering Pune",
+        "description": "College of Engineering Pune (COEP) is an autonomous engineering college affiliated to Savitribai Phule Pune University. It is one of the oldest engineering colleges in Asia."
+      },
+      {
+        "name": "Symbiosis International University",
+        "description": "Symbiosis International University (SIU) is a private deemed university located in Pune, Maharashtra. It is known for its programs in management, law, humanities, and social sciences."
+      }
+    ]
+  },
+  {
+    "title": "Ahmedabad",
+    "colleges": [
+      {
+        "name": "Indian Institute of Management Ahmedabad",
+        "description": "Indian Institute of Management Ahmedabad (IIM Ahmedabad) is a public business school located in Ahmedabad, Gujarat. It is one of the premier management institutions in India and is internationally recognized for its academic excellence."
+      },
+      {
+        "name": "Gujarat University",
+        "description": "Gujarat University is a public state university located in Ahmedabad, Gujarat. It offers various undergraduate, postgraduate, and doctoral programs in diverse fields of study."
+      },
+      {
+        "name": "CEPT University",
+        "description": "CEPT University (Centre for Environmental Planning and Technology University) is a private university located in Ahmedabad, Gujarat. It specializes in architecture, planning, and design disciplines."
+      }
+    ]
+  },
+  {
+    "title": "Jaipur",
+    "colleges": [
+      {
+        "name": "Malaviya National Institute of Technology",
+        "description": "Malaviya National Institute of Technology (MNIT) is a public technical university located in Jaipur, Rajasthan. It offers undergraduate, postgraduate, and doctoral programs in engineering and technology."
+      },
+      {
+        "name": "University of Rajasthan",
+        "description": "The University of Rajasthan is a public state university located in Jaipur, Rajasthan. It offers a wide range of undergraduate, postgraduate, and doctoral programs in various disciplines."
+      },
+      {
+        "name": "Jaipur National University",
+        "description": "Jaipur National University (JNU) is a private university located in Jaipur, Rajasthan. It offers programs in fields such as engineering, management, law, pharmacy, and education."
+      }
+    ]
+  },
+  {
+    "title": "Surat",
+    "colleges": [
+      {
+        "name": "Sardar Vallabhbhai National Institute of Technology",
+        "description": "Sardar Vallabhbhai National Institute of Technology (SVNIT) is a public technical university located in Surat, Gujarat. It offers undergraduate, postgraduate, and doctoral programs in engineering and technology."
+      },
+      {
+        "name": "Veermata Jijabai Technological Institute",
+        "description": "Veermata Jijabai Technological Institute (VJTI) is an autonomous engineering college located in Mumbai, Maharashtra. It offers undergraduate, postgraduate, and doctoral programs in engineering and technology."
+      },
+      {
+        "name": "Government Engineering College, Surat",
+        "description": "Government Engineering College, Surat is a public engineering college located in Surat, Gujarat. It offers undergraduate programs in engineering disciplines."
+      }
+    ]
+  },
+  {
+    "title": "Chandigarh",
+    "colleges": [
+      {
+        "name": "Panjab University",
+        "description": "Panjab University is a public state university located in Chandigarh. It offers a wide range of undergraduate, postgraduate, and doctoral programs in various disciplines including science, engineering, humanities, and social sciences."
+      },
+      {
+        "name": "PEC University of Technology",
+        "description": "PEC University of Technology (formerly Punjab Engineering College) is a public engineering university located in Chandigarh. It specializes in engineering and technology education."
+      },
+      {
+        "name": "Government Medical College and Hospital, Chandigarh",
+        "description": "Government Medical College and Hospital, Chandigarh is a medical college and hospital located in Chandigarh. It offers undergraduate and postgraduate medical education and healthcare services."
+      }
+    ]
+  },
+  {
+    "title": "Lucknow",
+    "colleges": [
+      {
+        "name": "Indian Institute of Management Lucknow",
+        "description": "Indian Institute of Management Lucknow (IIM Lucknow) is a public business school located in Lucknow, Uttar Pradesh. It is one of the top management institutions in India and offers various postgraduate and doctoral programs in management."
+      },
+      {
+        "name": "University of Lucknow",
+        "description": "The University of Lucknow is a public state university located in Lucknow, Uttar Pradesh. It offers undergraduate, postgraduate, and doctoral programs in various disciplines including arts, science, commerce, and management."
+      },
+      {
+        "name": "Dr. Ram Manohar Lohia National Law University",
+        "description": "Dr. Ram Manohar Lohia National Law University (RMLNLU) is a public law university located in Lucknow, Uttar Pradesh. It offers undergraduate, postgraduate, and doctoral programs in law and legal studies."
+      }
+    ]
+  }
+
+]
