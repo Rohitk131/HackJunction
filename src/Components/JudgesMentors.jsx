@@ -6,7 +6,7 @@ import { FiMessageSquare } from "react-icons/fi";
 
 const JudgesMentors = () => {
   return (
-    <div className='bg-gray-700 text-white'>
+    <div className='bg-[#25292A] text-white'>
       <Navbar />
       <h1 className='w-fit mx-auto text-5xl my-10 font-bold tracking-tighter'>Top Judges / Mentors</h1>
       <div className='flex justify-evenly flex-wrap gap-5 mt-5'>
