@@ -4,6 +4,7 @@ import "../index.css";
 import Features from "./featues";
 import FAQ from "./faq";
 import Tests from './testimonials';
+import Navbar from "./Navbar";
 
 export default function LandingPageWithHero() {
   return (
@@ -28,7 +29,7 @@ export default function LandingPageWithHero() {
           </g>
         </svg>
       </div>
-      <nav className="flex flex-row items-center justify-between px-4 md:px-20 py-10">
+      {/* <nav className="flex flex-row items-center justify-between px-4 md:px-20 py-10">
         <Link to="/">
           <div className="relative flex flex-row space-x-1 items-center">
             <div className="absolute h-6 w-4 bg-blue-500 transform -skew-x-12 z-10"></div>
@@ -88,7 +89,9 @@ export default function LandingPageWithHero() {
               </a></Link>
           </div>
         </div>
-      </nav>
+      </nav> */}
+
+      <Navbar current={"home"}/>
 
       <header className="mt-4 md:mt-20 flex flex-col md:flex-row space-x-2 px-4 md:px-20">
         <div className="w-full md:w-1/2">
@@ -212,48 +215,48 @@ export default function LandingPageWithHero() {
         </div>
 
         <div className="mt-8">
-          <div className="box-border max-w-6xl mx-auto md:masonry before:box-inherit after:box-inherit">
-            <div className="px-8 py-2 my-2 rounded-lg break-inside">
+          <div className="box-border justify-center md:masonry before:box-inherit w-full after:box-inherit flex flex-wrap">
+            <div className="px-8 py-2 my-2 rounded-lg break-inside w-1/4">
               <img
                 src="https://images.unsplash.com/photo-1638029202288-451a89e0d55f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="hero here"
-                className="rounded-lg h-fit"
+                className="rounded-lg h-full"
               />
             </div>
-            <div className="px-8 py-2 my-2 rounded-lg  break-inside">
+            <div className="px-8 py-2 my-2 rounded-lg  break-inside w-1/4">
               <img
                 src="https://miro.medium.com/v2/resize:fit:1400/0*oJc6NYEyNl4SqrcS"
                 alt="hero image"
-                className="rounded-lg "
+                className="rounded-lg h-full"
               />
             </div>
-            <div className="px-8 py-2 my-6 rounded-lg break-inside">
-              <img
-                src="https://blog.csiro.au/wp-content/uploads/2016/04/Solar-Hackathon-winners.jpg"
-                alt="hero here"
-                className="rounded-lg"
-              />
-            </div>
-            <div className="px-8 py-2 my-6 rounded-lg break-inside">
-              <img
-                src="https://www.researchgate.net/publication/343592585/figure/fig4/AS:1008195237597185@1617383884659/Customers-responses-on-the-hackathon-outcomes.ppm"
-                alt="hero here"
-                className="rounded-lg"
-              />
-            </div>
-            <div className="px-8 py-2 my-2 rounded-lg break-inside">
+            <div className="px-8 py-2 my-2 rounded-lg break-inside w-1/4">
               <img
                 src="https://miro.medium.com/v2/resize:fit:960/1*XHcSc6bN4ZbW7OtgvEJoYg.png"
                 alt="hero here"
                 height={"full"}
-                className="rounded-lg"
+                className="rounded-lg h-full"
               />
             </div>
-            <div className="px-8 py-2 my-6 rounded-lg break-inside">
+            <div className="px-8 py-2 my-6 rounded-lg break-inside w-1/4">
+              <img
+                src="https://www.researchgate.net/publication/343592585/figure/fig4/AS:1008195237597185@1617383884659/Customers-responses-on-the-hackathon-outcomes.ppm"
+                alt="hero here"
+                className="rounded-lg h-full"
+              />
+            </div>
+            <div className="px-8 py-2 my-6 rounded-lg break-inside w-1/4">
+              <img
+                src="https://blog.csiro.au/wp-content/uploads/2016/04/Solar-Hackathon-winners.jpg"
+                alt="hero here"
+                className="rounded-lg h-full"
+              />
+            </div>
+            <div className="px-8 py-2 my-6 rounded-lg break-inside w-1/4">
               <img
                 src="https://iotex.io/blog/content/images/2021/07/Hackathon-Sponsors.png"
                 alt="hero here"
-                className="rounded-lg"
+                className="rounded-lg h-full"
               />
             </div>
           </div>
@@ -302,17 +305,25 @@ export default function LandingPageWithHero() {
             </div>
             <div className="py-5 md:py-0">
               <h4 className="font-bold text-green-500 mb-2 px-2">Follow Us</h4>
-              <div></div>
-              <div></div>
+              <ul className="text-gray-600">
+                <li className="py-2 cursor-pointer hover:border-purple-300 border border-transparent px-2 rounded-full">
+                  Instagram
+                </li>
+                <li className="py-2 cursor-pointer hover:border-purple-300 border border-transparent px-2 rounded-full">
+                  LinkedIn
+                </li>
+                <li className="py-2 cursor-pointer hover:border-purple-300 border border-transparent px-2 rounded-full">
+                  Twitter
+                </li>
+                <li className="py-2 cursor-pointer hover:border-purple-300 border border-transparent px-2 rounded-full">
+                  Thread
+                </li>
+              </ul>
             </div>
           </div>
           <div className="flex justify-between items-end px-12 md:px-32 py-8 text-gray-500">
             <div>Legal</div>
-            <div>© 2021 AcePay. All Rights Reserved.</div>
-            <div className="hidden md:block">
-              <p className="font-bold tracking-tighter text-xl">1384</p>
-              <p>Cr. funds transferred</p>
-            </div>
+            <div>© 2024 HackJunction. All Rights Reserved.</div>
           </div>
         </div>
       </div>

@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Navbar = () => {
+const Navbar = ({current}) => {
   return (
-    <div className='bg-[#1b1e1f]'>
+    <div className={`${current == "home" ? "bg-transparent" : "bg-[#1b1e1f]"}`}>
       <nav className="flex flex-row items-center justify-between px-4 md:px-20 py-10">
         <Link to="/">
           <div className="relative flex flex-row space-x-1 items-center cursor-pointer">

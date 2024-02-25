@@ -12,7 +12,7 @@ import Subscribe from '/subscribe.png';
 
 const Venue = () => {
   const [searchQuery, setSearchQuery] = useState('');
-  
+
   const handleSearchChange = (e) => {
     setSearchQuery(e.target.value);
   };
@@ -33,7 +33,7 @@ const Venue = () => {
 
   return (
     <div className='bg-[#25292A] h-full text-white'>
-      <Navbar/>
+      <Navbar />
       <header>
         <h1 className='w-fit mx-auto text-7xl my-10 font-bold tracking-tighter'>Find a Venue</h1>
         <div className="mb-3 md:w-96 mx-auto">
@@ -72,60 +72,60 @@ const Venue = () => {
           <div className='mx-24' key={city.title}>
             {city.colleges.map((college, index) => (
               <div key={index} className="m-5">
-                 <div className="block rounded-lg bg-white text-center shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
-            <div className="border-b-2 border-neutral-100 px-6 py-3 dark:border-neutral-600 dark:text-neutral-50">
-              {city.title}
-            </div>
-            <div className="p-6">
-              <h5 className="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
-                {college.name}
-              </h5>
-              <p className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
-                {college.description}
-              </p>
-                <React.Fragment>
-                <button
-                  type="button"
-                  className="inline-block rounded p-3 px-10 text-sm font-medium  bg-[#1b1e1f] hover:bg-black cursor-pointer"
-                  onClick={handleClickOpen}>
-                  Book Now
-                </button>
-            <Dialog onClose={handleClose} aria-labelledby="customized-dialog-title" open={open}>
+                <div className="block rounded-lg bg-white text-center shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+                  <div className="border-b-2 border-neutral-100 px-6 py-3 dark:border-neutral-600 dark:text-neutral-50">
+                    {city.title}
+                  </div>
+                  <div className="p-6">
+                    <h5 className="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+                      {college.name}
+                    </h5>
+                    <p className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+                      {college.description}
+                    </p>
+                    <React.Fragment>
+                      <button
+                        type="button"
+                        className="inline-block rounded p-3 px-10 text-sm font-medium  bg-[#1b1e1f] hover:bg-black cursor-pointer"
+                        onClick={handleClickOpen}>
+                        Book Now
+                      </button>
+                      <Dialog onClose={handleClose} aria-labelledby="customized-dialog-title" open={open}>
 
-              <DialogTitle sx={{ m: 0, p: 2, px: 27 }} id="customized-dialog-title" className='bg-gray-800 text-white'>
-                Get Subscription
-              </DialogTitle>
-              <IconButton
-                aria-label="close"
-                onClick={handleClose}
-                sx={{
-                  position: 'absolute',
-                  right: 8,
-                  top: 8,
-                  color: (theme) => theme.palette.grey[500],
-                }}
-              >
-                <CloseIcon />
-              </IconButton>
-              <DialogContent className='bg-[#25292A]'>
-                <div className='w-[32vw] px-4 bg-[#25292A] my-10'>
-                  <div className='w-[30vw] shadow-xl bg-[#1b1e1f] text-white flex flex-col p-4 rounded-lg hover:scale-105 duration-300'>
-                    <img className='w-20 mx-auto mt-[-3rem] invert' src={Subscribe} alt="/" />
-                    <h2 className='text-2xl font-bold text-center py-8'>Monthly</h2>
-                    <p className='text-center text-4xl font-bold'>₹5,000</p>
-                    <div className='text-center font-medium'>
-                      <p className='py-2 border-b mx-8 mt-8'>100+ Sponsors</p>
-                      <p className='py-2 border-b mx-8'>100+ Venues</p>
-                      <p className='py-2 border-b mx-8'>0% Brokerage</p>
-                    </div>
-                    <button className='bg-gray-700 text-gray-200 w-[300px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Start Trial</button>
+                        <DialogTitle sx={{ m: 0, p: 2, px: 27 }} id="customized-dialog-title" className='bg-gray-800 text-white'>
+                          Get Subscription
+                        </DialogTitle>
+                        <IconButton
+                          aria-label="close"
+                          onClick={handleClose}
+                          sx={{
+                            position: 'absolute',
+                            right: 8,
+                            top: 8,
+                            color: (theme) => theme.palette.grey[500],
+                          }}
+                        >
+                          <CloseIcon />
+                        </IconButton>
+                        <DialogContent className='bg-[#25292A] flex justify-center'>
+                          <div className='w-[32vw] px-4 bg-[#25292A] my-10'>
+                            <div className='w-[30vw] shadow-xl bg-[#1b1e1f] text-white flex flex-col p-4 rounded-lg hover:scale-105 duration-300'>
+                              <img className='w-20 mx-auto mt-[-3rem] invert' src={Subscribe} alt="/" />
+                              <h2 className='text-2xl font-bold text-center py-8'>Monthly</h2>
+                              <p className='text-center text-4xl font-bold'>₹5,000</p>
+                              <div className='text-center font-medium'>
+                                <p className='py-2 border-b mx-8 mt-8'>100+ Sponsors</p>
+                                <p className='py-2 border-b mx-8'>100+ Venues</p>
+                                <p className='py-2 border-b mx-8'>0% Brokerage</p>
+                              </div>
+                              <button className='bg-gray-700 text-gray-200 w-[300px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Start Trial</button>
+                            </div>
+                          </div>
+                        </DialogContent>
+                      </Dialog>
+                    </React.Fragment>
                   </div>
                 </div>
-              </DialogContent>
-            </Dialog>
-          </React.Fragment>
-            </div>
-          </div>
               </div>
             ))}
           </div>

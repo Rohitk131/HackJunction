@@ -63,23 +63,25 @@ const Sponsors = () => {
 
           })}
         </section>
-        <section className='bg-[#1b1e1f] h-screen'>
-          <h1 className='w-fit mx-auto text-5xl my-10 p-10 font-bold tracking-wider'>Find Actively Participating Sponsors</h1>
-          <div className='h-[72vh]'>
+        <section className='bg-[#1b1e1f] h-full'>
+          <h1 className='w-fit mx-auto text-5xl my-2 p-10 font-bold tracking-wider'>Find Actively Participating Sponsors</h1>
+          <div className='h-fit mb-5'>
             <Stack direction="column" spacing={2} className='w-fit mx-auto'>
-              <DemoPaper variant="elevation" className='scale-100 hover:bg-red-800 hover:scale-110  cursor-pointer'>Zebpay</DemoPaper>
-              <DemoPaper variant="elevation" className='scale-100 hover:bg-indigo-900 hover:scale-110  cursor-pointer'>Celo</DemoPaper>
-              <DemoPaper variant="elevation" className='scale-100 hover:bg-green-800 hover:scale-110  cursor-pointer'>Stripe</DemoPaper>
-              <DemoPaper variant="elevation" className='scale-100 hover:bg-cyan-800 hover:scale-110  cursor-pointer'>Devpost</DemoPaper>
-              <DemoPaper variant="elevation" className='scale-100 hover:bg-amber-800 hover:scale-110 cursor-pointer'>Codethink</DemoPaper>
+              <DemoPaper variant="elevation" className='scale-90 hover:bg-red-800 hover:scale-100  cursor-pointer' >Zebpay</DemoPaper>
+              <DemoPaper variant="elevation" className='scale-90 hover:bg-slate-800 hover:scale-100  cursor-pointer' >Celo</DemoPaper>
+              <DemoPaper variant="elevation" className='scale-90 hover:bg-green-800 hover:scale-100  cursor-pointer' >Stripe</DemoPaper>
+              <DemoPaper variant="elevation" className='scale-90 hover:bg-cyan-800 hover:scale-100 cursor-pointer' >Devpost</DemoPaper>
+              <DemoPaper variant="elevation" className='scale-90 hover:bg-amber-800 hover:scale-100 cursor-pointer' >Codethink</DemoPaper>
             </Stack>
 
           </div>
           {/* <Button variant="outlined" sx={{color: "white", borderColor:"white", marginX:"45vw"}} onClick={handleClickOpen}>See More</Button> */}
           <React.Fragment>
-            <Button variant="outlined" sx={{ color: "white", borderColor: "white", marginLeft: "44vw", width: "200px" }} onClick={handleClickOpen} >
-              See More
-            </Button>
+            <center>
+              <Button variant="outlined" sx={{ color: "white", borderColor: "white", width: "200px", marginY: "1rem" }} onClick={handleClickOpen} >
+                See More
+              </Button>
+            </center>
             <Dialog onClose={handleClose} aria-labelledby="customized-dialog-title" open={open}>
 
               <DialogTitle sx={{ m: 0, p: 2, px: 27 }} id="customized-dialog-title" className='bg-gray-800 text-white'>
@@ -97,7 +99,7 @@ const Sponsors = () => {
               >
                 <CloseIcon />
               </IconButton>
-              <DialogContent className='bg-[#25292A]'>
+              <DialogContent className='bg-[#25292A] flex justify-center '>
                 <div className='w-[32vw] px-4 bg-[#25292A] my-10'>
                   <div className='w-[30vw] shadow-xl bg-[#1b1e1f] text-white flex flex-col p-4 rounded-lg hover:scale-105 duration-300'>
                     <img className='w-20 mx-auto mt-[-3rem] invert' src={Subscribe} alt="/" />
@@ -108,7 +110,7 @@ const Sponsors = () => {
                       <p className='py-2 border-b mx-8'>100+ Venues</p>
                       <p className='py-2 border-b mx-8'>0% Brokerage</p>
                     </div>
-                    <button className='bg-gray-700 text-gray-200 w-[300px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Start Trial</button>
+                    <button className='bg-gray-700 text-gray-200 w-[300px] rounded-md font-medium my-6 mx-auto px-6 py-3' onClick={()=>{alert("Login to continue ....")}}>Start Trial</button>
                   </div>
                 </div>
               </DialogContent>
