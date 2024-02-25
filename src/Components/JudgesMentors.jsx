@@ -21,7 +21,11 @@ const JudgesMentors = () => {
                   <p className='text-wrap text-gray-900 overflow-hidden'>{ele.desc}</p>
                   <div className='flex flex-row justify-between'>
                     <h1 className='text-black text-wrap text-2xl font-bold'>{ele.name}</h1>
-                    <button className='text-white h-fit bg-blue-600 p-2 px-3 rounded-3xl flex gap-2'>Connect <FiMessageSquare /></button>
+                    <button className='text-white h-fit bg-blue-600 p-2 px-3 rounded-3xl flex gap-2' onClick={
+                      ()=>{
+                        window.open(ele.linkedin,"_blank");
+                      }
+                    }>Connect <FiMessageSquare /></button>
                   </div>
                 </div>
               </div>
